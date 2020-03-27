@@ -1,0 +1,3296 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - Gun
+    - SceneHandler
+    - ShowControllers
+    - SimpleAttach
+    - SteamInputMap
+    - SteamVelocity
+    - Valve.VR.InteractionSystem.Bullet
+    - Valve.VR.InteractionSystem.Sample.Boomerang
+    - WFX_Demo_DeleteAfterDelay
+    - WFX_LightFlicker
+    SteamVR.dll:
+    - Valve.VR.Extras.SteamVR_LaserPointer
+    - Valve.VR.InteractionSystem.Balloon
+    - Valve.VR.InteractionSystem.BalloonSpawner
+    - Valve.VR.InteractionSystem.BodyCollider
+    - Valve.VR.InteractionSystem.ControllerButtonHints
+    - Valve.VR.InteractionSystem.ControllerHoverHighlight
+    - Valve.VR.InteractionSystem.DebugUI
+    - Valve.VR.InteractionSystem.DestroyOnParticleSystemDeath
+    - Valve.VR.InteractionSystem.Equippable
+    - Valve.VR.InteractionSystem.FallbackCameraController
+    - Valve.VR.InteractionSystem.Hand
+    - Valve.VR.InteractionSystem.HandCollider
+    - Valve.VR.InteractionSystem.HandPhysics
+    - Valve.VR.InteractionSystem.InputModule
+    - Valve.VR.InteractionSystem.Interactable
+    - Valve.VR.InteractionSystem.InteractableHoverEvents
+    - Valve.VR.InteractionSystem.PlaySound
+    - Valve.VR.InteractionSystem.Player
+    - Valve.VR.InteractionSystem.RenderModel
+    - Valve.VR.InteractionSystem.Sample.BuggyBuddy
+    - Valve.VR.InteractionSystem.Sample.BuggyController
+    - Valve.VR.InteractionSystem.Sample.LockToPoint
+    - Valve.VR.InteractionSystem.Sample.WheelDust
+    - Valve.VR.InteractionSystem.SnapTurn
+    - Valve.VR.InteractionSystem.SoundDeparent
+    - Valve.VR.InteractionSystem.SoundPlayOneshot
+    - Valve.VR.InteractionSystem.Teleport
+    - Valve.VR.InteractionSystem.TeleportArc
+    - Valve.VR.InteractionSystem.TeleportArea
+    - Valve.VR.InteractionSystem.TeleportPoint
+    - Valve.VR.InteractionSystem.Throwable
+    - Valve.VR.InteractionSystem.VelocityEstimator
+    - Valve.VR.SteamVR_ActivateActionSetOnLoad
+    - Valve.VR.SteamVR_Behaviour
+    - Valve.VR.SteamVR_Behaviour_Pose
+    - Valve.VR.SteamVR_Behaviour_Skeleton
+    - Valve.VR.SteamVR_ExternalCamera
+    - Valve.VR.SteamVR_Fade
+    - Valve.VR.SteamVR_Overlay
+    - Valve.VR.SteamVR_PlayArea
+    - Valve.VR.SteamVR_Render
+    - Valve.VR.SteamVR_RenderModel
+    - Valve.VR.SteamVR_Settings
+    - Valve.VR.SteamVR_Skeleton_Pose
+    - Valve.VR.SteamVR_Skeleton_Poser
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.Text
+    VRTK.Prefabs.Runtime.dll:
+    - VRTK.Prefabs.CameraRig.TrackedAlias.TrackedAliasConfigurator
+    - VRTK.Prefabs.CameraRig.TrackedAlias.TrackedAliasFacade
+    - VRTK.Prefabs.Interactions.Interactables.Climb.ClimbInteractableConfigurator
+    - VRTK.Prefabs.Interactions.Interactables.Climb.ClimbInteractableFacade
+    - VRTK.Prefabs.Interactions.Interactables.Grab.Action.GrabInteractableAction
+    - VRTK.Prefabs.Interactions.Interactables.Grab.GrabInteractableConfigurator
+    - VRTK.Prefabs.Interactions.Interactables.Grab.Provider.GrabInteractableListInteractorProvider
+    - VRTK.Prefabs.Interactions.Interactables.Grab.Receiver.GrabInteractableReceiver
+    - VRTK.Prefabs.Interactions.Interactables.InteractableFacade
+    - VRTK.Prefabs.Interactions.Interactables.Touch.TouchInteractableConfigurator
+    - VRTK.Prefabs.Interactions.Interactors.ComponentTags.StartGrabbingTag
+    - VRTK.Prefabs.Interactions.Interactors.ComponentTags.StartTouchingTag
+    - VRTK.Prefabs.Interactions.Interactors.ComponentTags.StopGrabbingTag
+    - VRTK.Prefabs.Interactions.Interactors.ComponentTags.StopTouchingTag
+    - VRTK.Prefabs.Interactions.Interactors.GrabInteractorConfigurator
+    - VRTK.Prefabs.Interactions.Interactors.InteractorExtractor
+    - VRTK.Prefabs.Interactions.Interactors.InteractorFacade
+    - VRTK.Prefabs.Interactions.Interactors.TouchInteractorConfigurator
+    - VRTK.Prefabs.Locomotion.BodyRepresentation.BodyRepresentationColliderTag
+    - VRTK.Prefabs.Locomotion.BodyRepresentation.BodyRepresentationFacade
+    - VRTK.Prefabs.Locomotion.BodyRepresentation.BodyRepresentationProcessor
+    - VRTK.Prefabs.Locomotion.Movement.Climb.ClimbFacade
+    - VRTK.Prefabs.Locomotion.Movement.Climb.ClimbVelocityApplier
+    Zinnia.Runtime.dll:
+    - Zinnia.Action.BooleanAction
+    - Zinnia.Data.Collection.Counter.GameObjectObservableCounter
+    - Zinnia.Data.Collection.List.BehaviourObservableList
+    - Zinnia.Data.Collection.List.GameObjectObservableList
+    - Zinnia.Data.Collection.List.SerializableTypeComponentObservableList
+    - Zinnia.Data.Collection.List.UnityObjectObservableList
+    - Zinnia.Data.Collection.List.Vector3ObservableList
+    - Zinnia.Data.Operation.Mutation.TransformPositionMutator
+    - Zinnia.Data.Type.Transformation.Aggregation.Vector3Multiplier
+    - Zinnia.Event.BehaviourEnabledObserver
+    - Zinnia.Event.Proxy.EmptyEventProxyEmitter
+    - Zinnia.Event.Proxy.GameObjectEventProxyEmitter
+    - Zinnia.Process.Moment.Collection.MomentProcessObservableList
+    - Zinnia.Process.Moment.MomentProcess
+    - Zinnia.Process.Moment.MomentProcessor
+    - Zinnia.Rule.ActiveInHierarchyRule
+    - Zinnia.Rule.AnyComponentTypeRule
+    - Zinnia.Rule.ListContainsRule
+    - Zinnia.Rule.NegationRule
+    - Zinnia.Tracking.CameraRig.Collection.LinkedAliasAssociationCollectionObservableList
+    - Zinnia.Tracking.CameraRig.LinkedAliasAssociationCollection
+    - Zinnia.Tracking.Collision.Active.ActiveCollisionConsumer
+    - Zinnia.Tracking.Collision.Active.ActiveCollisionPublisher
+    - Zinnia.Tracking.Collision.Active.ActiveCollisionsContainer
+    - Zinnia.Tracking.Collision.Active.Event.Proxy.ActiveCollisionConsumerEventProxyEmitter
+    - Zinnia.Tracking.Collision.Active.Event.Proxy.ActiveCollisionsContainerEventProxyEmitter
+    - Zinnia.Tracking.Collision.Active.Operation.Extraction.NotifierContainerExtractor
+    - Zinnia.Tracking.Collision.Active.Operation.Extraction.PublisherContainerExtractor
+    - Zinnia.Tracking.Collision.Active.Operation.NearestSorter
+    - Zinnia.Tracking.Collision.Active.Operation.Slicer
+    - Zinnia.Tracking.Collision.CollisionIgnorer
+    - Zinnia.Tracking.Collision.CollisionNotifier
+    - Zinnia.Tracking.Collision.CollisionTracker
+    - Zinnia.Tracking.Follow.Modifier.FollowModifier
+    - Zinnia.Tracking.Follow.Modifier.Property.Position.TransformPosition
+    - Zinnia.Tracking.Follow.Modifier.Property.Rotation.TransformRotation
+    - Zinnia.Tracking.Follow.Modifier.Property.Scale.TransformScale
+    - Zinnia.Tracking.Follow.ObjectDistanceComparator
+    - Zinnia.Tracking.Follow.ObjectFollower
+    - Zinnia.Tracking.Follow.Operation.Extraction.ObjectDistanceComparatorEventDataExtractor
+    - Zinnia.Tracking.Velocity.Collection.VelocityTrackerObservableList
+    - Zinnia.Tracking.Velocity.ComponentTrackerProxy
+    - Zinnia.Tracking.Velocity.VelocityEmitter
+    - Zinnia.Tracking.Velocity.VelocityTrackerProcessor
+    - Zinnia.Utility.CountdownTimer
+  sceneClasses:
+    Assets/Tuto/VR_GAME.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 75
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 96
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11270}
+    - Class: 114
+      Script: {instanceID: 11284}
+    - Class: 114
+      Script: {instanceID: 11290}
+    - Class: 114
+      Script: {instanceID: 11296}
+    - Class: 114
+      Script: {instanceID: 11298}
+    - Class: 114
+      Script: {instanceID: 11304}
+    - Class: 114
+      Script: {instanceID: 11336}
+    - Class: 114
+      Script: {instanceID: 11372}
+    - Class: 114
+      Script: {instanceID: 11394}
+    - Class: 114
+      Script: {instanceID: 11404}
+    - Class: 114
+      Script: {instanceID: 11406}
+    - Class: 114
+      Script: {instanceID: 11476}
+    - Class: 114
+      Script: {instanceID: 11478}
+    - Class: 114
+      Script: {instanceID: 11498}
+    - Class: 114
+      Script: {instanceID: 11554}
+    - Class: 114
+      Script: {instanceID: 11556}
+    - Class: 114
+      Script: {instanceID: 11580}
+    - Class: 114
+      Script: {instanceID: 11600}
+    - Class: 114
+      Script: {instanceID: 11602}
+    - Class: 114
+      Script: {instanceID: 11612}
+    - Class: 114
+      Script: {instanceID: 11660}
+    - Class: 114
+      Script: {instanceID: 11668}
+    - Class: 114
+      Script: {instanceID: 11692}
+    - Class: 114
+      Script: {instanceID: 11702}
+    - Class: 114
+      Script: {instanceID: 11746}
+    - Class: 114
+      Script: {instanceID: 11750}
+    - Class: 114
+      Script: {instanceID: 11764}
+    - Class: 114
+      Script: {instanceID: 11788}
+    - Class: 114
+      Script: {instanceID: 11800}
+    - Class: 114
+      Script: {instanceID: 11804}
+    - Class: 114
+      Script: {instanceID: 11876}
+    - Class: 114
+      Script: {instanceID: 11914}
+    - Class: 114
+      Script: {instanceID: 11916}
+    - Class: 114
+      Script: {instanceID: 11922}
+    - Class: 114
+      Script: {instanceID: 11992}
+    - Class: 114
+      Script: {instanceID: 12028}
+    - Class: 114
+      Script: {instanceID: 12112}
+    - Class: 114
+      Script: {instanceID: 12126}
+    - Class: 114
+      Script: {instanceID: 12158}
+    - Class: 114
+      Script: {instanceID: 12178}
+    - Class: 114
+      Script: {instanceID: 12184}
+    - Class: 114
+      Script: {instanceID: 12190}
+    - Class: 114
+      Script: {instanceID: 12230}
+    - Class: 114
+      Script: {instanceID: 12260}
+    - Class: 114
+      Script: {instanceID: 12268}
+    - Class: 114
+      Script: {instanceID: 12284}
+    - Class: 114
+      Script: {instanceID: 12314}
+    - Class: 114
+      Script: {instanceID: 12328}
+    - Class: 114
+      Script: {instanceID: 12398}
+    - Class: 114
+      Script: {instanceID: 12408}
+    - Class: 114
+      Script: {instanceID: 12446}
+    - Class: 114
+      Script: {instanceID: 12472}
+    - Class: 114
+      Script: {instanceID: 12484}
+    - Class: 114
+      Script: {instanceID: 12524}
+    - Class: 114
+      Script: {instanceID: 12554}
+    - Class: 114
+      Script: {instanceID: 12584}
+    - Class: 114
+      Script: {instanceID: 12594}
+    - Class: 114
+      Script: {instanceID: 12624}
+    - Class: 114
+      Script: {instanceID: 12632}
+    - Class: 114
+      Script: {instanceID: 12662}
+    - Class: 114
+      Script: {instanceID: 12710}
+    - Class: 114
+      Script: {instanceID: 12720}
+    - Class: 114
+      Script: {instanceID: 12744}
+    - Class: 114
+      Script: {instanceID: 12752}
+    - Class: 114
+      Script: {instanceID: 12828}
+    - Class: 114
+      Script: {instanceID: 12838}
+    - Class: 114
+      Script: {instanceID: 12850}
+    - Class: 114
+      Script: {instanceID: 12878}
+    - Class: 114
+      Script: {instanceID: 12882}
+    - Class: 114
+      Script: {instanceID: 12892}
+    - Class: 114
+      Script: {instanceID: 12910}
+    - Class: 114
+      Script: {instanceID: 12936}
+    - Class: 114
+      Script: {instanceID: 12946}
+    - Class: 114
+      Script: {instanceID: 13040}
+    - Class: 114
+      Script: {instanceID: 13042}
+    - Class: 114
+      Script: {instanceID: 13110}
+    - Class: 114
+      Script: {instanceID: 13158}
+    - Class: 114
+      Script: {instanceID: 13182}
+    - Class: 114
+      Script: {instanceID: 13206}
+    - Class: 114
+      Script: {instanceID: 13220}
+    - Class: 114
+      Script: {instanceID: 13390}
+    - Class: 114
+      Script: {instanceID: 13392}
+    - Class: 114
+      Script: {instanceID: 13418}
+    - Class: 114
+      Script: {instanceID: 13454}
+    - Class: 114
+      Script: {instanceID: 13514}
+    - Class: 114
+      Script: {instanceID: 13518}
+    - Class: 114
+      Script: {instanceID: 13538}
+    - Class: 114
+      Script: {instanceID: 13564}
+    - Class: 114
+      Script: {instanceID: 13568}
+    - Class: 114
+      Script: {instanceID: 13582}
+    - Class: 114
+      Script: {instanceID: 13588}
+    - Class: 114
+      Script: {instanceID: 13610}
+    - Class: 114
+      Script: {instanceID: 13620}
+    - Class: 114
+      Script: {instanceID: 13622}
+    - Class: 114
+      Script: {instanceID: 13632}
+    - Class: 114
+      Script: {instanceID: 13634}
+    - Class: 114
+      Script: {instanceID: 13662}
+    - Class: 114
+      Script: {instanceID: 13684}
+    - Class: 114
+      Script: {instanceID: 13688}
+    - Class: 114
+      Script: {instanceID: 13730}
+    - Class: 114
+      Script: {instanceID: 13766}
+    - Class: 114
+      Script: {instanceID: 13814}
+    - Class: 114
+      Script: {instanceID: 13834}
+    - Class: 114
+      Script: {instanceID: 13874}
+    - Class: 114
+      Script: {instanceID: 13896}
+    - Class: 114
+      Script: {instanceID: 13930}
+    - Class: 114
+      Script: {instanceID: 13954}
+    - Class: 114
+      Script: {instanceID: 13980}
+    - Class: 114
+      Script: {instanceID: 14018}
+    - Class: 114
+      Script: {instanceID: 14034}
+    - Class: 114
+      Script: {instanceID: 14042}
+    - Class: 114
+      Script: {instanceID: 14044}
+    - Class: 114
+      Script: {instanceID: 14064}
+    - Class: 114
+      Script: {instanceID: 14094}
+    - Class: 114
+      Script: {instanceID: 14096}
+    - Class: 114
+      Script: {instanceID: 14134}
+    - Class: 114
+      Script: {instanceID: 14158}
+    - Class: 114
+      Script: {instanceID: 14292}
+    - Class: 114
+      Script: {instanceID: 14362}
+    - Class: 114
+      Script: {instanceID: 14364}
+    - Class: 114
+      Script: {instanceID: 14368}
+    - Class: 114
+      Script: {instanceID: 14386}
+    - Class: 114
+      Script: {instanceID: 14390}
+    - Class: 114
+      Script: {instanceID: 14420}
+    - Class: 114
+      Script: {instanceID: 14440}
+    - Class: 114
+      Script: {instanceID: 14466}
+    - Class: 114
+      Script: {instanceID: 14480}
+    - Class: 114
+      Script: {instanceID: 14484}
+    - Class: 114
+      Script: {instanceID: 14518}
+    - Class: 114
+      Script: {instanceID: 14524}
+    - Class: 114
+      Script: {instanceID: 14532}
+    - Class: 114
+      Script: {instanceID: 14564}
+    - Class: 114
+      Script: {instanceID: 14578}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 146
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 7217128afa2c34f987a3121082f90a02
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast
+    className: ParabolicLineCast
+  - hash:
+      serializedVersion: 2
+      Hash: bdd75c1195a09c34e872b2941427c44d
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.DestinationLocations
+    className: DestinationLocationFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 3800f5e3156a1e54f5c990c4e514eda1
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Ears
+  - hash:
+      serializedVersion: 2
+      Hash: 8b2d4e06e046ec1dc0a99d91bec0c17a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WFX_Demo
+  - hash:
+      serializedVersion: 2
+      Hash: 13c40e71b4af669ad3f56e281300e612
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: LinearAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 3ba511d6778af7ef51aac1b9a1a179fc
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab.Action
+    className: GrabInteractableAction
+  - hash:
+      serializedVersion: 2
+      Hash: bf93456903f8f0132ccfbe1d462c9c26
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking
+    className: SurfaceLocator
+  - hash:
+      serializedVersion: 2
+      Hash: 9e59cb55c85142a96a08808523bf3eb0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: GameObjectEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 6adee554954584b0047fa1955f259d15
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_ActivateActionSetOnLoad
+  - hash:
+      serializedVersion: 2
+      Hash: 90f740750fb432fede48094a9bb40a06
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Scale
+    className: TransformScale
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: DestroyOnParticleSystemDeath
+  - hash:
+      serializedVersion: 2
+      Hash: 22240e791dbd5a561cf4e7c6652c9d39
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation
+    className: Vector3MagnitudeSetter
+  - hash:
+      serializedVersion: 2
+      Hash: 3c08375166df118bd1801438fc36b92f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.DestinationLocations
+    className: DestinationLocationLockedStateTag
+  - hash:
+      serializedVersion: 2
+      Hash: 671420ad2c33f1ddaf6d076461adf15a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_Demo_Translate
+  - hash:
+      serializedVersion: 2
+      Hash: 1875635f70b679d36f0dc67b4b9618c1
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: Teleport
+  - hash:
+      serializedVersion: 2
+      Hash: 383fe362eb90dd619f6d853fd836f0d8
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: SeeThru
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 626925ef558787b2d85c809198164d19
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 7df54f0f69e4b490b39970043c1b540f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Mutation
+    className: TransformScaleMutator
+  - hash:
+      serializedVersion: 2
+      Hash: a78dae04482ec84aa7d3a9a555a2d50b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.Counter
+    className: GameObjectObservableCounter
+  - hash:
+      serializedVersion: 2
+      Hash: cb64f59e8d4f44b3b24f83f693569f90
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Movement.SpatialManipulation
+    className: ScaleManipulator
+  - hash:
+      serializedVersion: 2
+      Hash: 6a5d8463a2263d3170e343a6dc5332aa
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: SerializableTypeComponentObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: c4a6d5610ab09ad85bf9b1a877b6b7c5
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: Throwable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.BodyRepresentation
+    className: BodyRepresentationColliderTag
+  - hash:
+      serializedVersion: 2
+      Hash: 4300d9af7b0b02f99c1bf2663ff45019
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Controllables
+    className: DirectionalDriveFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 8528d6b2bf8de7e441f1c781a2231062
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: AmbientSound
+  - hash:
+      serializedVersion: 2
+      Hash: c8ebe1a6445d89267090af7e7c5c957f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: LinearAudioPitch
+  - hash:
+      serializedVersion: 2
+      Hash: 9a83bd141a7bf939e9ab01da7f0be8ce
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: FloatToVector2
+  - hash:
+      serializedVersion: 2
+      Hash: 0031596f60c026f182dcc976632358c0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation
+    className: FloatRangeValueRemapper
+  - hash:
+      serializedVersion: 2
+      Hash: 1b1062ec0b6b4ee5fd378809ac77ff08
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab.Provider
+    className: GrabInteractableStackInteractorProvider
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_CameraFlip
+  - hash:
+      serializedVersion: 2
+      Hash: e9f3da6fb043ba55c5686b2625010fb8
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: TeleportArc
+  - hash:
+      serializedVersion: 2
+      Hash: 9517d0bf39002f9b9a065ac34bcbcfb5
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: ListContainsRule
+  - hash:
+      serializedVersion: 2
+      Hash: 1a304e74a63aa7ea3d9300219eee4704
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Haptics
+    className: InteractorHapticsConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 77a5ce679570c14a49885173645e78ea
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors
+    className: ActionInteractorConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 44cf48ce5f1a1d2f92b776c0e37bd0c8
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: Hand
+  - hash:
+      serializedVersion: 2
+      Hash: 8acb93aaa20724d8425fc6e9315b66ae
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: SpawnAndAttachToHand
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 0fed5f14291c3455fb97c890383f3f0b
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Pointers
+    className: PointerFacadeGameObjectExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 59de95ea0f162782c69cba2f2d24fba0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: Vector2ObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: cd6d03f9fdf66c9c022a09e86769b638
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: EmptyEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 72712369a7c681ad84fc255a5ec0b333
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 499fd23433e68e265d153aa6b95d0047
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 98d138569dc38b8bf8400ea20da0e6f3
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.Extras
+    className: SteamVR_LaserPointer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: b03d1c51938aa5acf14208025059c8af
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: Boomerang
+  - hash:
+      serializedVersion: 2
+      Hash: 0e2ce2f22060571614715dafd3643e22
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision
+    className: CollisionNotifier
+  - hash:
+      serializedVersion: 2
+      Hash: 8e0313c6f5e2ce35991fec2d64f8eaab
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: bfff67bff4bd5310b0b005cbb863c92c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AnyTagRule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: f53353aadf7a88ea54da9f1e48a6d181
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_LoadLevel
+  - hash:
+      serializedVersion: 2
+      Hash: 234235b9fb07320d11497e08a726cc56
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 968a3280ef04a84624071bcc8428573d
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.BodyRepresentation
+    className: BodyRepresentationFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 445c4578e5fe3309b82f234574ed26a5
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: Equippable
+  - hash:
+      serializedVersion: 2
+      Hash: 153e79ec9e185d0c5f25d07650bdac99
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.UnityXRCameraRig.Input
+    className: UnityAxis1DAction
+  - hash:
+      serializedVersion: 2
+      Hash: b1299c30ced5950d3d7d5d51dcac728e
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Helpers.Tooltip
+    className: TooltipConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 0a178a1c85198b9dad8fc799b8bfaa65
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: BodyCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 79a120ea0a9fbd921a0720613ce23598
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.InteractableSnapZone
+    className: SnapZoneConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_CameraMask
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: d6361c97f7278bb96d5119a1aa89faeb
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: a9ca0909b260232af152a6062939015d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: BooleanToFloat
+  - hash:
+      serializedVersion: 2
+      Hash: 4451fe44e46276c9824962142df55819
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: ComponentGameObjectExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: f9654ab2b14c99684549e5ea6fd4992e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: ComponentEnabledStateModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: InputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 7e394d578dea8ffa781cf49e6f9214b9
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Process.Moment
+    className: MomentProcess
+  - hash:
+      serializedVersion: 2
+      Hash: 3ffeba0f723a4385ddb9431e1138b181
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Behaviour_Boolean
+  - hash:
+      serializedVersion: 2
+      Hash: 492922e88cd5d8eec833ea3313940e47
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection
+    className: GameObjectRelations
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: d14b5caca3610ffe26ad6cd89c3b1a34
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Helpers.AxisRotator
+    className: AxisRotatorConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 2e4d26187828ec6fc78fe78f0712f15b
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: CustomSkeletonHelper
+  - hash:
+      serializedVersion: 2
+      Hash: e7e203b4396ed34c798a5d265e1073fd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: BehaviourObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 5ca114659055ebcf810e743a23998db3
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Movement.AxesToVector3
+    className: AxesToVector3Facade
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 90f740750fb432fede48094a9bb40a06
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Position
+    className: TransformPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 67a84cba6278b54136fb8ffcb7aca2d7
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab.Provider
+    className: GrabInteractableListInteractorProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 18628813c7aad3d4328ffde18c4d9d59
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: JoeJeffController
+  - hash:
+      serializedVersion: 2
+      Hash: 273edebf89fec28577c3d849101aa8cf
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: SurfaceChangeAction
+  - hash:
+      serializedVersion: 2
+      Hash: a01f5fdb7bcdde54e45412c1be54d990
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: UIElement
+  - hash:
+      serializedVersion: 2
+      Hash: daa5bc3897e17251d0b346afa2fb3735
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: AngleToVector2Direction
+  - hash:
+      serializedVersion: 2
+      Hash: 88b1611e53ffd65cfed88476712a689d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: DirectionModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 7d37d09af363b70d55d9408e5fb34050
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WFX_Demo_New
+  - hash:
+      serializedVersion: 2
+      Hash: ffe642add16635217f1d4e6c9827be75
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Process.Moment
+    className: MomentProcessor
+  - hash:
+      serializedVersion: 2
+      Hash: 046d095ff8696299536de2574c882733
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: StringInListRule
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: cfa743a0d1f6e2eb814922c9d464b126
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Movement.SpatialManipulation
+    className: RotationManipulator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: HideOnHandFocusLost
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors.ComponentTags
+    className: IgnoreInteractorCollisionTag
+  - hash:
+      serializedVersion: 2
+      Hash: 99c29fdb950942dd674adea8cbe52579
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: FloppyHand
+  - hash:
+      serializedVersion: 2
+      Hash: 20c9a74d659b6895cfdb5f4624ba8daa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WFX_Demo_DeleteAfterDelay
+  - hash:
+      serializedVersion: 2
+      Hash: 295bcfe4fbf55811d7b942dff8c88b53
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: Vector3ObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: efc7262760d35ea312d874bce27be9c4
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics
+    className: AudioClipHapticPulser
+  - hash:
+      serializedVersion: 2
+      Hash: 5ee90921e69fbbcda2884f650e1b8321
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity.Collection
+    className: VelocityTrackerObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 97754f2053651386be971ec65c9109a9
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: ArtificialVelocityApplier
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 4e9333594897a1fb8b136ad2eae996c7
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 1d0beb1a2d4edee4c06b6835632e83a3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_AutoStopLoopedEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 26cd900708afcd7c79cc986abc81d0ad
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: StringObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 8f8cbabafb472772e0aa9da19e8ed009
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_IK
+  - hash:
+      serializedVersion: 2
+      Hash: 5c9db84e75793292a8a3684736c896db
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AnyComponentTypeRule
+  - hash:
+      serializedVersion: 2
+      Hash: a06e17b49fad8b176473d4f07cde82db
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.DestinationLocations
+    className: DestinationLocation
+  - hash:
+      serializedVersion: 2
+      Hash: c233345314a54d04aeeef307bb7311fe
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Behaviour_Vector2
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 1c0df4a9092330c04a5f6cb7b40125c9
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: LinearAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 297d7a050bd705232c6dbad0a7668cda
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: InteractableDebug
+  - hash:
+      serializedVersion: 2
+      Hash: a4434b3306bb3fef41e39f2aadad4d6c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShowControllers
+  - hash:
+      serializedVersion: 2
+      Hash: 1bd8896baa5bad83ba4f6b4b775179b3
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.InteractableSnapZone
+    className: SnapZoneFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 98b1690abf674d1dd44e0577085cc23a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: Vector3Subtractor
+  - hash:
+      serializedVersion: 2
+      Hash: c7a446581b7673aa421382573d6d42c6
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AnyRule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.DestinationLocations
+    className: ActionDispatcher
+  - hash:
+      serializedVersion: 2
+      Hash: eaf039cf4309ffe25561aa6bf714daa7
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Event.Proxy
+    className: CollisionNotifierEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: c03b64ffba4edcc107eeeb98b4a38395
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Helpers.TrackedCollider
+    className: TrackedColliderConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 9ead72890624b9efdb33c285d8743fb5
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: RenderModelChangerUI
+  - hash:
+      serializedVersion: 2
+      Hash: cffe519b5f0ea047a807fc185d690c26
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Behaviour_SkeletonCustom
+  - hash:
+      serializedVersion: 2
+      Hash: 4ad6beda2c0ca76215175ddca461ae7c
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: Grenade
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 3088dc96f430e8acd5007df0a23ef951
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: Vector2ToAngle
+  - hash:
+      serializedVersion: 2
+      Hash: 0deb7040fee1261ad81dc530757b2788
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active
+    className: CollisionPointContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 8f4cf6924a6be92d2e925bd4f39de769
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: 66541ca71b4fba1344ac590d01704c14
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Movement.Climb
+    className: ClimbVelocityApplier
+  - hash:
+      serializedVersion: 2
+      Hash: 615941f1fcd1439553b68b0547ebd3e0
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables
+    className: InteractableConsumerContainerExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 1ef3969c3040878cf55d768e77fc2550
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: Vector2ComponentExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: f8e78a3b9ad72259c623087e27fa8428
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: ComponentTrackerProxy
+  - hash:
+      serializedVersion: 2
+      Hash: c0e2d27bb994fd918b71c1d294d8135d
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Controllables
+    className: DirectionalJointDrive
+  - hash:
+      serializedVersion: 2
+      Hash: 615941f1fcd1439553b68b0547ebd3e0
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables
+    className: InteractableFacadeExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SimpleAttach
+  - hash:
+      serializedVersion: 2
+      Hash: 0cdf1c2671eca4ee349fa4e49be90c5b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Association
+    className: LoadedXrDeviceAssociation
+  - hash:
+      serializedVersion: 2
+      Hash: 948fc81d10a0f1ca22569b45a62d3d37
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: HandCollider
+  - hash:
+      serializedVersion: 2
+      Hash: b5282125181e5b13b8c339378377f8e0
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables
+    className: InteractablePropertyCache
+  - hash:
+      serializedVersion: 2
+      Hash: 482621ef0ce0fcf37e29e5ae70c9f576
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Controllables
+    className: RotationalJointDrive
+  - hash:
+      serializedVersion: 2
+      Hash: 19cb06a107df830dac6d810870b98bb3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: VelocityEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: FlowerPlanted
+  - hash:
+      serializedVersion: 2
+      Hash: ae12829df65cc250cdf068ae8b53a0ed
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Pointer
+    className: PointerElement
+  - hash:
+      serializedVersion: 2
+      Hash: 32c33cf8ff76c86f64cbb1ceb894eecd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AnyBehaviourEnabledRule
+  - hash:
+      serializedVersion: 2
+      Hash: b03d1c51938aa5acf14208025059c8af
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: LockToPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 615941f1fcd1439553b68b0547ebd3e0
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables
+    className: InteractableConsumerRigidbodyExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: InteractableExample
+  - hash:
+      serializedVersion: 2
+      Hash: 8fba20d367de35d50deb7c19695dbc61
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Rotation
+    className: RigidbodyForceAtPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 37b0c2e76cad579c4655826713e52332
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.SimulatedCameraRig
+    className: ActiveObjectController
+  - hash:
+      serializedVersion: 2
+      Hash: fca36d793af8574ab4369cf94a8d0d09
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics.Collection
+    className: HapticProcessObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: e0f1a8d4b95e2893e46f658b3b796847
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Skeleton_Pose
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 9fc3f19334d5c8086a3c31c922c8a827
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: SoundDeparent
+  - hash:
+      serializedVersion: 2
+      Hash: dcb828d92622119b1be8901145dd2ca0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Process.Moment
+    className: CompositeProcess
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Controllables.ComponentTags
+    className: ControllableJointDriveContainerTag
+  - hash:
+      serializedVersion: 2
+      Hash: ec65528c7c2c1b28fe26056267dcba4d
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Behaviour_Vector3
+  - hash:
+      serializedVersion: 2
+      Hash: cc4366fbf9de20ff5d58dff7cc93ec53
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Controllables
+    className: DirectionalTransformDrive
+  - hash:
+      serializedVersion: 2
+      Hash: 8d56d815d548ac734fd494069afb156b
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors
+    className: TouchInteractorConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: b8a5e8091ab0b8861d2add371082c5e0
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f03e715efc06166652b50734d144ef72
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: VelocityTrackerProcessor
+  - hash:
+      serializedVersion: 2
+      Hash: f838d160147e5b1182ba8b20e890cc86
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: NegationRule
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: fe9209b4337a14bddaae9e0830c0a835
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event
+    className: BehaviourEnabledObserver
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: e3fd6ecc9d6caa468d7bd91e02a94aba
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ComplexThrowable
+  - hash:
+      serializedVersion: 2
+      Hash: 8e69d62a3f550ae66c76e1271fee60d8
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.UnityXRCameraRig
+    className: UnityXRConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 13f92b17c78a4c3226ff7fcb61bf1fe3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.CameraRig.Collection
+    className: LinkedAliasAssociationCollectionObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 220942ebd4a8206ceaaadfb26e160163
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.SimulatedCameraRig
+    className: TransformPropertyResetter
+  - hash:
+      serializedVersion: 2
+      Hash: cd46b185d8d6f8e2daa8c2832bc4cb15
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.PlayAreaRepresentation
+    className: PlayAreaRepresentationFacade
+  - hash:
+      serializedVersion: 2
+      Hash: bd0f70259e5920d5cc171d0499babc9c
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: TeleportPoint
+  - hash:
+      serializedVersion: 2
+      Hash: eade5a5efd53b0e50dfe8fb48b76f0f7
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: SoundPlayOneshot
+  - hash:
+      serializedVersion: 2
+      Hash: 79c8bb3c61b32415a2dcd6f76562a14b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification.Operation.Extraction
+    className: TransformPropertyApplierEventDataExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 5f603031df4f412519943b04d1265c08
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: HapticRack
+  - hash:
+      serializedVersion: 2
+      Hash: d38c3bea8a0865e1d5894fb5ea5905f4
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule.Collection
+    className: RuleContainerObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 119391f43736672a1054200339bf7d8f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics
+    className: HapticProcessor
+  - hash:
+      serializedVersion: 2
+      Hash: 6af03e1e3b3ad7381b695c209f744e6c
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: BuggyBuddy
+  - hash:
+      serializedVersion: 2
+      Hash: eaa28f8512d9da701f46530ecb66b033
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Visual
+    className: CameraColorOverlay
+  - hash:
+      serializedVersion: 2
+      Hash: d0f72e335ba63de49df35d5745fee637
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: LinearDisplacement
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.CameraRigSwitcher
+    className: XRSettingsConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 7133581702b65be7388ded00e0202d01
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab.Receiver
+    className: GrabInteractableReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: b796300a34c5fc6acf7491089b3f21a5
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TransformDirectionExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 5b3f6f1c50f87343f07304b19fd3dd3c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: AverageVelocityEstimator
+  - hash:
+      serializedVersion: 2
+      Hash: 58a89415d518eb45b073f6212913a74a
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: TargetHitEffect
+  - hash:
+      serializedVersion: 2
+      Hash: badc8d355a63a7b0291547b12e2277fc
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: SpawnAndAttachAfterControllerIsTracking
+  - hash:
+      serializedVersion: 2
+      Hash: 0a0b5a12c64300ca8c753d3afcb5770e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: XRNodeVelocityEstimator
+  - hash:
+      serializedVersion: 2
+      Hash: cd6d03f9fdf66c9c022a09e86769b638
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: FloatEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 992a6e5b432e59db3adfded46591e434
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: InteractableHoverEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 9f8417738ea18900ada81dfc51554395
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab.Action
+    className: GrabInteractableFollowAction
+  - hash:
+      serializedVersion: 2
+      Hash: 5be5617aaccaba711b254597d4101940
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: SnapTurn
+  - hash:
+      serializedVersion: 2
+      Hash: 33ad31b724fa2cdb5f695a1d41d3ae05
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: Vector3ToVector2
+  - hash:
+      serializedVersion: 2
+      Hash: c6bfb6b96dfa8d98e8ee48353bcacfe0
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: LinearBlendshape
+  - hash:
+      serializedVersion: 2
+      Hash: 29d518781ccba8971abc835d8d13df67
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: ButtonExample
+  - hash:
+      serializedVersion: 2
+      Hash: 08c544de23e8d45042a1c8322312f30b
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ControllerHoverHighlight
+  - hash:
+      serializedVersion: 2
+      Hash: 4aac268d7e435f7a65add91aaba819a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_Demo_RandomDir
+  - hash:
+      serializedVersion: 2
+      Hash: 6bafdf6ecb1213a72c6eeee80efda564
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables
+    className: InteractableFacade
+  - hash:
+      serializedVersion: 2
+      Hash: c8111cd8bec663cfa14aa0d74a554319
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: VelocityMultiplier
+  - hash:
+      serializedVersion: 2
+      Hash: b3ab2106268377ffe25dd18ac23dca28
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Asset
+  - hash:
+      serializedVersion: 2
+      Hash: 5157f5188d43b4cd4d990c7fa928868a
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ControllerButtonHints
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: DontDestroyOnLoad
+  - hash:
+      serializedVersion: 2
+      Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 20ae459a0072025a05fde31a89b54ba3
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: JoeJeff
+  - hash:
+      serializedVersion: 2
+      Hash: 66bca5cc6a18c5298ec75235e56a84d6
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: PointNormalRotator
+  - hash:
+      serializedVersion: 2
+      Hash: 4422d73e827dea43cd5edcd27353b243
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Helpers.SceneConsole
+    className: SceneConsoleFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 3f5031037e63abe5dcf87c278e01a4de
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_Demo_RotateCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 615941f1fcd1439553b68b0547ebd3e0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation.Extraction
+    className: NotifierContainerExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 1158f1e2d61fa9661b5d73694f87fdc8
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Query
+    className: ObscuranceQuery
+  - hash:
+      serializedVersion: 2
+      Hash: 1f79efcdf7666f1ad6f8a3b502d232aa
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Pointer
+    className: ObjectPointer
+  - hash:
+      serializedVersion: 2
+      Hash: 2d294d4206c416d3656fed09aee5ac0c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier
+    className: FollowModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 332290fe3e8a08b4913b85b9ed80c28f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Behaviour_Single
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 815eccb43e6d661ca95ea50e332da1b5
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Helpers.TrackedCollider
+    className: TrackedColliderFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 773d56635029b2a1cfccb5c2192845c6
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow
+    className: ObjectFollower
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: IgnoreTeleportTrace
+  - hash:
+      serializedVersion: 2
+      Hash: ced6051fd4a62b7cb0f41a4ead871800
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Gun
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: SkeletonUIOptions
+  - hash:
+      serializedVersion: 2
+      Hash: 15727fa23f84f1e7558e093d78593dcc
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Position
+    className: RigidbodyVelocity
+  - hash:
+      serializedVersion: 2
+      Hash: cd6d03f9fdf66c9c022a09e86769b638
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: TransformDataProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab242b870223c7cc725ed27e7836c1a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Association.Collection
+    className: GameObjectsAssociationObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 1f2feea55bedf19d47c1619d83f0b6b4
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Visual
+    className: PointsRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: e6193bd9c92ea535880794e957df37f6
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: Vector2Action
+  - hash:
+      serializedVersion: 2
+      Hash: 15936e88d40a588b81740bed9a93d9af
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.InteractableSnapZone
+    className: ActivationValidator
+  - hash:
+      serializedVersion: 2
+      Hash: 2ebcffb5be0ba0840fdce549c503cb1b
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Movement.SpatialManipulation
+    className: PositionManipulator
+  - hash:
+      serializedVersion: 2
+      Hash: 615941f1fcd1439553b68b0547ebd3e0
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors
+    className: InteractorExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: ButtonEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 5d27c6e85ec89cfab8577e9e26695e88
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_AutoDestructShuriken
+  - hash:
+      serializedVersion: 2
+      Hash: d4270d2ec8b3620ba9e28a813eff67cd
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: Interactable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: cd6d03f9fdf66c9c022a09e86769b638
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: SurfaceDataProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 6b8bedbfe64fbfc065bd496759987324
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab
+    className: GrabInteractableConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: fa5d069645c5f38a362924187ca1cb5d
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: Planting
+  - hash:
+      serializedVersion: 2
+      Hash: 2658488b550b51097fe1e8e9f9a19f87
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.Extras
+    className: SteamVR_GazeTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 5fb9d8769ba2a7332fd30af40b4e66b1
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ItemPackage
+  - hash:
+      serializedVersion: 2
+      Hash: 0246cbdbb0ebec8fff7e9086e521e314
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: GameObjectRelationObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 24c723d753304a23cbebbd496d1f2d15
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Menu
+  - hash:
+      serializedVersion: 2
+      Hash: 661d3be649bd0600841fdb6556dba3fd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation
+    className: NearestSorter
+  - hash:
+      serializedVersion: 2
+      Hash: 9fb17494f9276942d0a411430ac67b24
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Behaviour_Skeleton
+  - hash:
+      serializedVersion: 2
+      Hash: 4aac268d7e435f7a65add91aaba819a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WFX_Demo_RandomDir
+  - hash:
+      serializedVersion: 2
+      Hash: 297c8ed95f31f38bac90a25f1059a350
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast
+    className: StraightLineCast
+  - hash:
+      serializedVersion: 2
+      Hash: 2bca23b9ffe30776f859becc36d76089
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow
+    className: ObjectDistanceComparator
+  - hash:
+      serializedVersion: 2
+      Hash: 2fa405fd598b8a89245b3c78c55e9904
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: FireSource
+  - hash:
+      serializedVersion: 2
+      Hash: 85af9a2367da2c6ce09bf448bd7d9ae1
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: LinearMapping
+  - hash:
+      serializedVersion: 2
+      Hash: c2b9c175b9205104bb915437c9c8e5a2
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Pointers
+    className: PointerFacade
+  - hash:
+      serializedVersion: 2
+      Hash: fd76e2d9af7ed4dc752f461062df4789
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: AllAction
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors.ComponentTags
+    className: StopGrabbingTag
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 69365398e25519d716e04decb5a604df
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SteamInputMap
+  - hash:
+      serializedVersion: 2
+      Hash: cd6d03f9fdf66c9c022a09e86769b638
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Event.Proxy
+    className: ActiveCollisionsContainerEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: f78cf8a645b6baaac9cc157d6eb292ec
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: FloatMultiplier
+  - hash:
+      serializedVersion: 2
+      Hash: 3ba511d6778af7ef51aac1b9a1a179fc
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab.Action
+    className: GrabInteractableSwapAction
+  - hash:
+      serializedVersion: 2
+      Hash: f5f25645085257c501404a702df6e587
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.Extras
+    className: SteamVR_TestThrow
+  - hash:
+      serializedVersion: 2
+      Hash: a509650020474e8c2a343581439c27d2
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Movement.AxesToVector3
+    className: AxesToVector3Processor
+  - hash:
+      serializedVersion: 2
+      Hash: 865767fd905a12623f5660cf1d381c9f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: Longbow
+  - hash:
+      serializedVersion: 2
+      Hash: 660deb0ce569359218f0ba85b7ce0e3a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_LightIntensityFade
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ExplosionWobble
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: bc5017fa784ab3e286779ac6b1f8d958
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: Vector2ToVector3
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SimpleGrab
+  - hash:
+      serializedVersion: 2
+      Hash: 37c893bbf0aec13e2dd0f1d88b6fff9b
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: DestroyOnTriggerEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 2f659d8f26d4563ee5f206d3a4bcb776
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ItemPackageSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: e3f42509bf72ec79e74ff61ab765f340
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: GameObjectStateMirror
+  - hash:
+      serializedVersion: 2
+      Hash: fd76e2d9af7ed4dc752f461062df4789
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: AnyAction
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 8a85932349653ac157f1464689d6a897
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: Bullet
+  - hash:
+      serializedVersion: 2
+      Hash: feb9a5a121d15fa3654d4e50a5233045
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 211a16c9f221cabde993c863bf6b3806
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: VelocityApplier
+  - hash:
+      serializedVersion: 2
+      Hash: 4bdc76d93857e2a94a6cd56a97090e67
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule.Collection
+    className: RulesMatcherElementObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 4c128527affe5849820ed3dec75f6027
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: RenderModel
+  - hash:
+      serializedVersion: 2
+      Hash: 021cbbc089ea38037d65d0f072d770c0
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab
+    className: InteractableGrabStateEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 8eb3a5f0b7fd900742b16e7776e2275b
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_TrackedObject
+  - hash:
+      serializedVersion: 2
+      Hash: 12a838849798e429e26b27be7b1889bd
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Helpers.AxisRotator
+    className: AxisRotatorFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 4a4827fc70910078a2cb5b1c64cd6499
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics
+    className: AudioSourceHapticPulser
+  - hash:
+      serializedVersion: 2
+      Hash: 33f5fb6162669a3c887965548d614567
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: SoundBowClick
+  - hash:
+      serializedVersion: 2
+      Hash: 62dcf3eb853443e0de607e5eab6f7878
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active
+    className: ActiveCollisionsContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 0f1d08ce066a9441b8ebaadaab5d787d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action.Collection
+    className: ActionRegistrarSourceObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: d50c3f33d57e5b5496b3e405fc382e4b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: RulesMatcher
+  - hash:
+      serializedVersion: 2
+      Hash: 5b836d3602e2f03b6097c6a9dbf43ceb
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: FloatAction
+  - hash:
+      serializedVersion: 2
+      Hash: 7df34c5245fadad95312151f0be723df
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 8bfb2d9c9e4b98061d3b0a7c96587348
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Movement.MovementAmplifier
+    className: MovementAmplifierFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 09eca56b9b080521b49b59b92c126ac9
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.PlayAreaRepresentation
+    className: PlayAreaRepresentationConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 534955d43f520b4316abdfbd29b8a76a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: SurfaceDataCollisionPointExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Fade
+  - hash:
+      serializedVersion: 2
+      Hash: 5c3f07d871a6f1f9a3cb71c92b1becf5
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Teleporters
+    className: TeleporterConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 89dd43f00aeec6b685242f1c5366b1f7
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: UnityObjectObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: dd677f14ff2f4a095c717b2fe1f83b76
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Controllables
+    className: RotationalDriveFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 141b6f284a4e8bc6ca482dc3556f287a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Association
+    className: GameObjectsAssociationActivator
+  - hash:
+      serializedVersion: 2
+      Hash: 229827561222db1f4e766a3eb65da2a8
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.SimulatedCameraRig
+    className: SimulatorConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: ef01145d01005ab9549541e17c69be56
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Skybox
+  - hash:
+      serializedVersion: 2
+      Hash: 0a64177d608477efba10c067e6b3bf24
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Rotation
+    className: RigidbodyAngularVelocity
+  - hash:
+      serializedVersion: 2
+      Hash: 7d19057642c463daceac505ab19dd37e
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.Extras
+    className: SteamVR_ForceSteamVRMode
+  - hash:
+      serializedVersion: 2
+      Hash: 259cddf8fede19ebbd5554f20d50358d
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Movement.SpatialManipulation
+    className: SpatialManipulatorFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 54434edb87ea289b9f440209b57de750
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Movement.MovementAmplifier
+    className: MovementAmplifierConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 9e59cb55c85142a96a08808523bf3eb0
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors
+    className: InteractorFacadeEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 363c649aa7deda919f9b2d0c729efa20
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TransformPositionExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: ControllerHintsExample
+  - hash:
+      serializedVersion: 2
+      Hash: c9a8b80298a116835b51ba1cf9284367
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 78be31fccf9db6061d6b16173412fe1f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Query
+    className: FacingQuery
+  - hash:
+      serializedVersion: 2
+      Hash: d0f675debdfa790464e25d58967c01a8
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: DistanceHaptics
+  - hash:
+      serializedVersion: 2
+      Hash: 636a77f3228481f2b67ba1c4242ac5b9
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Behaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 35a9693c388776aaf487636491a20f11
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e1300922cc039f41ab46a47f4cb05898
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 876541412e7eb49d05ffab44f25627c2
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: TeleportArea
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: SleepOnAwake
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ChaperoneInfo
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 76d6b62dc8f2b03086e6851bc8aea0d8
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: TransformPropertyApplier
+  - hash:
+      serializedVersion: 2
+      Hash: d94cf8f260d8c2d5fae1de5f4983b730
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.Extras
+    className: SteamVR_TestTrackedCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: DestroyOnDetachedFromHand
+  - hash:
+      serializedVersion: 2
+      Hash: 6a5d8463a2263d3170e343a6dc5332aa
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: SerializableTypeBehaviourObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 68d2358dcd0713bae2f163f51ffba199
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision
+    className: CollisionTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 6ee14e03af17a61e7104e4ff754feba5
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: ActionRegistrar
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_TrackingReferenceManager
+  - hash:
+      serializedVersion: 2
+      Hash: b4e7db8026eb599b98398540d8028742
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics
+    className: XRNodeHapticPulser
+  - hash:
+      serializedVersion: 2
+      Hash: 234e568b7e618d7c4c9c2cba046fc579
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Behaviour_Pose
+  - hash:
+      serializedVersion: 2
+      Hash: 282c198cf27840ec11da0729d0ead0f3
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_RenderModel
+  - hash:
+      serializedVersion: 2
+      Hash: 5fea5641e947b1b79600be5daf80e7d6
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ArrowHand
+  - hash:
+      serializedVersion: 2
+      Hash: c1933cc0a2f4ff6eb13333347497beb3
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 42511b380cb21bf0c5b5a743f8bbe792
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.SimulatedCameraRig
+    className: KeyBindingDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: 9cdd5757306ab9183dcec420028a84cf
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_PlayArea
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors.ComponentTags
+    className: StartActionTag
+  - hash:
+      serializedVersion: 2
+      Hash: 3196faedf18beceaf42ddb861780ce08
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors.Collection
+    className: InteractorFacadeObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_SphericalProjection
+  - hash:
+      serializedVersion: 2
+      Hash: 581f3710e1186967c9213e3923915a29
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: BuggyController
+  - hash:
+      serializedVersion: 2
+      Hash: 88580cd35d2aac4ecde7166fc973286f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Overlay
+  - hash:
+      serializedVersion: 2
+      Hash: 8a710212b2b883f6c4b9fa3a8d49dbea
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Mutation
+    className: TransformPositionMutator
+  - hash:
+      serializedVersion: 2
+      Hash: 9e9f97e029dbf3ae34e4f8f1aabde748
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: trackCam
+  - hash:
+      serializedVersion: 2
+      Hash: 35192af4bda4142f0dc2ca7f06090c8e
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: WheelDust
+  - hash:
+      serializedVersion: 2
+      Hash: c98b75f66fb089f264cea22a0a30c448
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation
+    className: Vector3Restrictor
+  - hash:
+      serializedVersion: 2
+      Hash: 279768045d861f23f3ea812bd285d1d2
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: trackObj
+  - hash:
+      serializedVersion: 2
+      Hash: 52fa6b22d9ebf344d382d078d7e1a4a7
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: Balloon
+  - hash:
+      serializedVersion: 2
+      Hash: 95bc3ff871c9e462ef542d55aab8e3f4
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: HandPhysics
+  - hash:
+      serializedVersion: 2
+      Hash: 0004e6414b5a10aa71d861498c105797
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Utility
+    className: CountdownTimer
+  - hash:
+      serializedVersion: 2
+      Hash: 25c426f94768dd848da129dbfa3f5e2d
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: BalloonSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 7e73277238ee8c04d76a601e04d9ae7f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors
+    className: InteractorFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 1776a012a5fa9aaa82fea9037413bbec
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Helpers.Tooltip
+    className: TooltipFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 072ce9c723d435f341effa60512fb39c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation
+    className: OrderReverser
+  - hash:
+      serializedVersion: 2
+      Hash: 4cf979ef2061790b7f65ca43b5109d55
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: GameObjectStateSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: 824bfaaa55852f2d71fe2a5690ff73c3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.CameraRig
+    className: LinkedAliasAssociationCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 9c98f0cc584f19f41bb4d006ce913975
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: ActiveInHierarchyRule
+  - hash:
+      serializedVersion: 2
+      Hash: 79f1e4d923cfc803b34c05ae2cb73dac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WFX_LightFlicker
+  - hash:
+      serializedVersion: 2
+      Hash: 5ffe9fc605b635c66264c1090e3433e7
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ModalThrowable
+  - hash:
+      serializedVersion: 2
+      Hash: 1dd6d155303c234d25f4e513809ccf4e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: GameObjectObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 3b760e6526e13f7504f59e210145899a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 22ac56c311dfe82323f5014ae514e09f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Rotation
+    className: TransformPositionDifferenceRotation
+  - hash:
+      serializedVersion: 2
+      Hash: d8280d4a1974006b8a91f87b052dc80d
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: ProceduralHats
+  - hash:
+      serializedVersion: 2
+      Hash: 3933cbb0efbb9fb1f852dc891eeebcd0
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors
+    className: GrabInteractorConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors.ComponentTags
+    className: StopActionTag
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ArrowheadRotation
+  - hash:
+      serializedVersion: 2
+      Hash: a7a8a2bce583d2ab753482c77c0fe6af
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: FloatToVector3
+  - hash:
+      serializedVersion: 2
+      Hash: c6f61866634adbfb258590f2792e7a98
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation
+    className: GameObjectCloner
+  - hash:
+      serializedVersion: 2
+      Hash: c7a446581b7673aa421382573d6d42c6
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AllRule
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 907d685addf43768a22f55bfe8caadf9
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast
+    className: FixedLineCast
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: DebugUI
+  - hash:
+      serializedVersion: 2
+      Hash: e90daabce256e21953534ec5ca23a970
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Pointer.Operation.Mutation
+    className: PointerElementPropertyMutator
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 671820220a850a9c744c937ee54460f8
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Mutation
+    className: RigidbodyPropertyMutator
+  - hash:
+      serializedVersion: 2
+      Hash: ad50c94648779d3e321b448b68c1b6b2
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: AllowTeleportWhileAttachedToHand
+  - hash:
+      serializedVersion: 2
+      Hash: b41a5b7cc47ed116b2d9e17f76346513
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ItemPackageReference
+  - hash:
+      serializedVersion: 2
+      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 98b1690abf674d1dd44e0577085cc23a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: Vector3Multiplier
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: Unparent
+  - hash:
+      serializedVersion: 2
+      Hash: c549f6d02b2f5176f68243fef11977cf
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast
+    className: PhysicsCast
+  - hash:
+      serializedVersion: 2
+      Hash: 747e0726e1bec109ba49208e106c41a5
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.Stack
+    className: GameObjectObservableStack
+  - hash:
+      serializedVersion: 2
+      Hash: 23b3595a8dcb02023b32480b0f72daa9
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.CameraRig.Operation.Extraction
+    className: PlayAreaDimensionsExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: fbe06e5be5d3af7ba5bc78b20e4c448f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Operation.Extraction
+    className: ObjectDistanceComparatorEventDataExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 45be7c9c443c8d156084fae60067948f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Pointers
+    className: PointerFacadeComponentGameObjectExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: c008f61d8fbb9af0bd4f64390121cc42
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.InteractableSnapZone
+    className: SnapZoneActivator
+  - hash:
+      serializedVersion: 2
+      Hash: f355a5f797948b860e3e37cc53343064
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision
+    className: CollisionIgnorer
+  - hash:
+      serializedVersion: 2
+      Hash: 1d685fe124fe274f4781ca9699192cde
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: PinchScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 615941f1fcd1439553b68b0547ebd3e0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation.Extraction
+    className: NotifierTargetExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 638523fc4799dbdf41d5c9ac88309852
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Climb
+    className: ClimbInteractableFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 9e59cb55c85142a96a08808523bf3eb0
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables
+    className: InteractableFacadeEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: bc9580b6c93df7ca8e551fdaa31d3f0a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: FloatObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 1abfd1cd953a909f8d7edb031f425657
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Movement.AxesToVector3
+    className: Vector3Cache
+  - hash:
+      serializedVersion: 2
+      Hash: 96da068d974cf8acaa9fb2f198864139
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ArcheryTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 503196a1f60aab91cb941af8ddc0e37d
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_ExternalCamera
+  - hash:
+      serializedVersion: 2
+      Hash: dd7780efe480b95c7be3094f9d1d4270
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WFX_Demo_Wall
+  - hash:
+      serializedVersion: 2
+      Hash: 1f4c2bfd694d98d3a0eb67ef38d81e79
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.InteractorVisibilityModifier
+    className: InteractorVisibilityModifierFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 363c649aa7deda919f9b2d0c729efa20
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TransformScaleExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: f1b1d314ca3b7b03e29e12762db58162
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WFX_BulletHoleDecal
+  - hash:
+      serializedVersion: 2
+      Hash: b521fd99dd9478100ae35f10432080b1
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.TrackedAlias
+    className: TrackedAliasConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: fd3349896f14ec38c7e493f7aaa12007
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab.Action
+    className: GrabInteractableControlDirectionAction
+  - hash:
+      serializedVersion: 2
+      Hash: 516aa998d41f606b49b7e76a6230ec5d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast.Operation.Mutation
+    className: PointsCastPropertyMutator
+  - hash:
+      serializedVersion: 2
+      Hash: c60b09ed8cd59996a16a7d6449997ee1
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation
+    className: Slicer
+  - hash:
+      serializedVersion: 2
+      Hash: 615941f1fcd1439553b68b0547ebd3e0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation.Extraction
+    className: PublisherContainerExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 90f740750fb432fede48094a9bb40a06
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Rotation
+    className: TransformRotation
+  - hash:
+      serializedVersion: 2
+      Hash: dcc114a5a54569e9d74f9017ab2384c5
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: IgnoreHovering
+  - hash:
+      serializedVersion: 2
+      Hash: 8535188def2f4988c4c42606e4b5b391
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Haptics
+    className: InteractorHapticsFacade
+  - hash:
+      serializedVersion: 2
+      Hash: c0c20ee8e570ec7061f37fa1a329a1db
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.SimulatedCameraRig.Input
+    className: MouseVector2DAction
+  - hash:
+      serializedVersion: 2
+      Hash: df5d35a8ba9b5435cc70773ae5d40b5c
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Skeleton_Poser
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: cafe8f659ec4810167e189e3e06c6f57
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: PlaySound
+  - hash:
+      serializedVersion: 2
+      Hash: 1b26fea0b3a7ee864c46458d1a61e800
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active
+    className: ActiveCollisionConsumer
+  - hash:
+      serializedVersion: 2
+      Hash: 6f194e0261aecd5aab82aab33643d4b3
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: BalloonColliders
+  - hash:
+      serializedVersion: 2
+      Hash: accca183cd593906a396623b9c25f66b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: Vector2Multiplier
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 7fa31cb47bd639494f81b7024faee1f5
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Touch
+    className: TouchInteractableConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: c64811138f5bf3be7ff7410f73fb7fdf
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: Vector3ToFloat
+  - hash:
+      serializedVersion: 2
+      Hash: 13e69442f81c731651e4e42e52585152
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Movement.Climb
+    className: ClimbFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 1321e2f40dec122ca53086e36a18203a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TransformDataGameObjectExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 4f92be952f734912be3568618147be1d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: ToggleAction
+  - hash:
+      serializedVersion: 2
+      Hash: db0dbcbf70945501e9a0445cd390f627
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Process
+    className: EventProcess
+  - hash:
+      serializedVersion: 2
+      Hash: 6e2e21958a7e3b44a8fc9f9e693d7364
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action.Collection
+    className: ActionObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 238aea19443175ed9e8dbfb4fab8965c
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.UnityXRCameraRig.Input
+    className: UnityButtonAction
+  - hash:
+      serializedVersion: 2
+      Hash: 92215ab982042368416aad9ff838fb07
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.SimulatedCameraRig
+    className: SimulatorFacade
+  - hash:
+      serializedVersion: 2
+      Hash: dcc608e96ec2ac8ad8de1fc54d7d0b7a
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: SquishyToy
+  - hash:
+      serializedVersion: 2
+      Hash: 65aa1eed000a6822a5aba6155c16e80a
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: CircularDrive
+  - hash:
+      serializedVersion: 2
+      Hash: a620c431ca716d819b0f6f6626066ce8
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.BodyRepresentation
+    className: BodyRepresentationProcessor
+  - hash:
+      serializedVersion: 2
+      Hash: df434544c9f7b33d1cc7e635b180d279
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 2efec62005e43bac07a627f3e58c4df0
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.UnityXRCameraRig.Input
+    className: UnityAxis2DAction
+  - hash:
+      serializedVersion: 2
+      Hash: 84a3e4e0d25666c0e73413aed3a9552e
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: Arrow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: d4ac1f1e29032db3ec1d611e6f479bf6
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Teleporters
+    className: TeleporterFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 263025083d0a7e8d3b9c0c9ab88a743d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_SpawnSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 733d63e230e8b7a674b8bfd02525c480
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: FallbackCameraController
+  - hash:
+      serializedVersion: 2
+      Hash: 8174fa23231db6c931bd5407dfa4c300
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active
+    className: ActiveCollisionPublisher
+  - hash:
+      serializedVersion: 2
+      Hash: 9e59cb55c85142a96a08808523bf3eb0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Event.Proxy
+    className: ActiveCollisionConsumerEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: b8c7297a93272bb07020274d63eb3934
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: BalloonHapticBump
+  - hash:
+      serializedVersion: 2
+      Hash: b9549bdcdfcbd1e07af194fef7f09a85
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: TargetMeasurement
+  - hash:
+      serializedVersion: 2
+      Hash: 596dfcb399175f0a5694af2f0d499a48
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab
+    className: InteractableGrabStateRegistrar
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: c64811138f5bf3be7ff7410f73fb7fdf
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: Vector2ToFloat
+  - hash:
+      serializedVersion: 2
+      Hash: a7089f9264d52603b4e6e5c1fd3d2696
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: VelocityEstimator
+  - hash:
+      serializedVersion: 2
+      Hash: f78cf8a645b6baaac9cc157d6eb292ec
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: FloatAdder
+  - hash:
+      serializedVersion: 2
+      Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 4f92be952f734912be3568618147be1d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: BooleanAction
+  - hash:
+      serializedVersion: 2
+      Hash: a7a7d967abd615eca7d39d2624c51f71
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AnyLayerRule
+  - hash:
+      serializedVersion: 2
+      Hash: 8649814970b42d345b89944b862453cc
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 270c259548ad2ec1dd0eeaf8b36d351b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: FloatToBoolean
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 05a740cc42a3d445908bb1e6cc789b71
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Climb
+    className: ClimbInteractableConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 4ef0f7d42cdb13479386e1f049c315aa
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 2aeeec1b1a144c469cd2d37776bc2315
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 363c649aa7deda919f9b2d0c729efa20
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TransformEulerRotationExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 08113d888c481bbc38ffd2c5c2c1e18a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Process.Moment.Collection
+    className: MomentProcessObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 54730292ba524f4f4d97d2ab52d73a39
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Controllables
+    className: RotationalTransformDrive
+  - hash:
+      serializedVersion: 2
+      Hash: 2152b102d2557c5ee82f82a5b62789fa
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Mutation
+    className: TransformEulerRotationMutator
+  - hash:
+      serializedVersion: 2
+      Hash: 1a1be53569dc9ca929692bdfe356f0e4
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.DestinationLocations
+    className: DestinationLocationConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors.ComponentTags
+    className: StartGrabbingTag
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: d287c185a119d79ff1e89b8a6a2ad8aa
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Frustum
+  - hash:
+      serializedVersion: 2
+      Hash: aa88ae22474df55295327e4ee99e5a24
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: JoeJeffGestures
+  - hash:
+      serializedVersion: 2
+      Hash: 827788bf62ad53d2c918573e88943cd0
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Render
+  - hash:
+      serializedVersion: 2
+      Hash: 1ba001e1051dbf18703ca59a4cbf3476
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: LinearDrive
+  - hash:
+      serializedVersion: 2
+      Hash: ee853cdea551598dcf20ec3e2d9812f3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics
+    className: TimedHapticProcess
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors.ComponentTags
+    className: StartTouchingTag
+  - hash:
+      serializedVersion: 2
+      Hash: 9bd396bc9fc24f78f19a7ec64fd80ad9
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.TrackedAlias
+    className: TrackedAliasFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 7072231382eb3c4871b3dd75ad0227e1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 369ac75bccabec8d42a4da128cec94bd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: StateEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 25d06a1267c2cd9d5eb4d34b597d94a0
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Pointers
+    className: PointerConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 9805f7a3e230af997c3df7e82956abe0
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab.Action
+    className: GrabInteractableScaleAction
+  - hash:
+      serializedVersion: 2
+      Hash: 496df05afd73f908b93efee60d652b58
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SteamVelocity
+  - hash:
+      serializedVersion: 2
+      Hash: 75cd39a1f6026e63f483b86039e2c4cb
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Camera
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors.ComponentTags
+    className: StopTouchingTag
+  - hash:
+      serializedVersion: 2
+      Hash: 34e7991a9252968fc267ed59fd9d9940
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: HoverButton
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  platform: 19
+  scenePathNames:
+  - Assets/Tuto/VR_GAME.unity
+  playerPath: C:/Users/julien/Documents/Unity/JR_TD_Project/Build/JR_TD_Project.exe
