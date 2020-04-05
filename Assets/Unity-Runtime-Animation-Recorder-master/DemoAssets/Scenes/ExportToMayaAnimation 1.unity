@@ -232,10 +232,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6272a0c874e44c39a1eb66510a66797, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saveFolderPath: 
-  saveFileName: 
-  originalMaFilePath: 
-  startKey: 113
+  saveFolderPath: C:/Users/julien/Desktop/TestMaya/
+  saveFileName: TestMaya2.ma
+  originalMaFilePath: C:/Users/julien/Documents/Unity/JR_TD_Project/Assets/Unity-Runtime-Animation-Recorder-master/DemoAssets/Models/triangles.ma
+  startKey: 32
   endKey: 119
   changeTimeScale: 0
   startGameWithTimeScale: 0

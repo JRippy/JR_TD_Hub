@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/DEV/Buttons.unity
+- path: Assets/Scenes/Buttons.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
