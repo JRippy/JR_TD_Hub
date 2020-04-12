@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 using Valve.VR;
+using Valve.VR.InteractionSystem;
 
 public class KatanaController : MonoBehaviour
 {
     // a reference to the action
-    public SteamVR_Action_Boolean clickAction = SteamVR_Input.GetAction<SteamVR_Action_Boolean>("GrabPinch");
+    public SteamVR_Action_Boolean cutAction = SteamVR_Input.GetAction<SteamVR_Action_Boolean>("GrabPinch");
     // a reference to the hand
     public SteamVR_Input_Sources handType;
 
@@ -15,31 +16,49 @@ public class KatanaController : MonoBehaviour
     SteamVR_TrackedObject trackedObj;
     Collider bladeCollider;
     Vector3 collisionEnterPos, collisionExitPos;
+    private Interactable interactable;
 
     void Start()
     {
         trackedObj = GetComponentInParent<SteamVR_TrackedObject>();
         bladeCollider = GetComponentInChildren<Collider>();
+        interactable = GetComponent<Interactable>();
 
 
-        clickAction.AddOnStateDownListener(TriggerDown, handType);
-        clickAction.AddOnStateUpListener(TriggerUp, handType);
-        bladeCollider.isTrigger = true;
+        //cutAction.AddOnStateDownListener(TriggerDown, handType);
+        //cutAction.AddOnStateUpListener(TriggerUp, handType);
+        //bladeCollider.isTrigger = true;
     }
 
-    public void TriggerUp(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
-    {
-        Debug.Log("Trigger is up");
-        bladeCollider.isTrigger = true;
-    }
-    public void TriggerDown(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
-    {
-        Debug.Log("Trigger is down");
-        bladeCollider.isTrigger = false;
-    }
+    //public void TriggerUp(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+    //{
+    //    Debug.Log("Trigger is up");
+    //    bladeCollider.isTrigger = true;
+    //}
+    //public void TriggerDown(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+    //{
+    //    
+    //    bladeCollider.isTrigger = false;
+    //}
 
     void Update()
     {
+        if (interactable.attachedToHand != null)
+        {
+            SteamVR_Input_Sources source = interactable.attachedToHand.handType;
+
+            if (cutAction[source].stateDown)
+            {
+                Debug.Log("Trigger is down");
+                bladeCollider.isTrigger = true;
+            }
+            else if (cutAction[source].stateUp)
+            {
+                Debug.Log("Trigger is up");
+                bladeCollider.isTrigger = false;
+            }
+        }
+
         Debug.DrawLine(bladeCollider.transform.position, bladeCollider.transform.position + bladeCollider.transform.up * 1f, Color.red); // towards tip
         Debug.DrawLine(bladeCollider.transform.position, bladeCollider.transform.position + bladeCollider.transform.forward * 1f, Color.blue); // down
     }
