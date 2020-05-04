@@ -65,6 +65,7 @@ public class Gun : MonoBehaviour
 
         RaycastHit hit;
 
+        //Create ball impact
         if (Physics.Raycast(barrelPivot.transform.position, barrelPivot.transform.forward, out hit, Mathf.Infinity))
         {
             //Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));  

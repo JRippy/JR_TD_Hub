@@ -52,20 +52,22 @@ public class SceneHandler : MonoBehaviour
     //-----------------Test----------------------
     void Start()
     {
-        SphereOnOff.AddOnStateDownListener(TriggerDown, handType);
-        SphereOnOff.AddOnStateUpListener(TriggerUp, handType);
+        //SphereOnOff.AddOnStateDownListener(TriggerDown, handType);
+        //SphereOnOff.AddOnStateUpListener(TriggerUp, handType);
     }
 
-    public void TriggerUp(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
-    {
-        Debug.Log("Trigger is up");
-        Sphere.GetComponent<MeshRenderer>().enabled = false;
-    }
-    public void TriggerDown(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
-    {
-        Debug.Log("Trigger is down");
-        Sphere.GetComponent<MeshRenderer>().enabled = true;
-    }
+    //To review :: Add input
+    //
+    //public void TriggerUp(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+    //{
+    //    Debug.Log("Trigger is up");
+    //    Sphere.GetComponent<MeshRenderer>().enabled = false;
+    //}
+    //public void TriggerDown(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+    //{
+    //    Debug.Log("Trigger is down");
+    //    Sphere.GetComponent<MeshRenderer>().enabled = true;
+    //}
 
 
 

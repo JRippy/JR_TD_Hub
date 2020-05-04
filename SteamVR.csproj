@@ -456,6 +456,9 @@
     <Reference Include="Valve.Newtonsoft.Json">
       <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
     <Reference Include="Malimbe.BehaviourStateRequirementMethod">
       <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.BehaviourStateRequirementMethod.dll</HintPath>
     </Reference>

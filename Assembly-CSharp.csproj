@@ -105,8 +105,15 @@
     <Compile Include="Assets\Script\ShowControllers.cs" />
     <Compile Include="Assets\Script\SimpleAttach.cs" />
     <Compile Include="Assets\Script\SimpleGrab.cs" />
+    <Compile Include="Assets\Script\SimpleLine.cs" />
+    <Compile Include="Assets\Script\SpawnBasketball.cs" />
+    <Compile Include="Assets\Script\VRAnimatorControler.cs" />
+    <Compile Include="Assets\Script\VRFootIK.cs" />
+    <Compile Include="Assets\Script\VRRig.cs" />
     <Compile Include="Assets\Script\WandController.cs" />
     <Compile Include="Assets\Script\WhipController.cs" />
+    <Compile Include="Assets\Script\shotBall.cs" />
+    <Compile Include="Assets\Script\slingshot.cs" />
     <Compile Include="Assets\Unity-Runtime-Animation-Recorder-master\Unity Runtime Recorder\Scripts\AnimationRecorderHelper.cs" />
     <Compile Include="Assets\Unity-Runtime-Animation-Recorder-master\Unity Runtime Recorder\Scripts\BigNumber\BigInteger.cs" />
     <Compile Include="Assets\Unity-Runtime-Animation-Recorder-master\Unity Runtime Recorder\Scripts\FbxExporter\FbxConnectionObj.cs" />
@@ -152,17 +159,26 @@
     <Reference Include="Supyrb.Editor">
       <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Supyrb.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="VRTK.Prefabs.Runtime">
       <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/VRTK.Prefabs.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Zinnia.Editor">
       <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Zinnia.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.Animation.Rigging.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -176,8 +192,17 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
     <Reference Include="Zinnia.Runtime">
       <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Zinnia.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging.Editor">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.Animation.Rigging.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
@@ -364,6 +389,9 @@
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
       <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Malimbe.BehaviourStateRequirementMethod">
       <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.BehaviourStateRequirementMethod.dll</HintPath>
