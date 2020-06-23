@@ -74,7 +74,7 @@ public class SceneHandler : MonoBehaviour
 
     public void PointerClick(object sender, PointerEventArgs e)
     {
-        if (e.target.name == "Cube")
+        if (e.target.name == "Clickable Cube")
         {
             Debug.Log("Cube was clicked");
             //Renderer rend = e.target.GetComponent<Renderer>();
