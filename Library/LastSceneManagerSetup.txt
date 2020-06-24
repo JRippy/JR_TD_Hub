@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/VR_GAME.unity
+- path: Assets/Scenes/FinalScenes/StoragePack.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
