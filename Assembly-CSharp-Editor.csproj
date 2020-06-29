@@ -63,10 +63,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\PackageChecker.cs" />
     <Compile Include="Assets\Import\JMO Assets\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
     <Compile Include="Assets\Import\JMO Assets\WarFX\Editor\CFX_SpawnSystemEditor.cs" />
     <Compile Include="Assets\Unity-Runtime-Animation-Recorder-master\Unity Runtime Recorder\Scripts\MayaExporter\Editor\MayaAnimationRecorderEditor.cs" />
     <Compile Include="Assets\Unity-Runtime-Animation-Recorder-master\Unity Runtime Recorder\Scripts\UnityAnimSaver\Editor\UnityAnimationRecorderEditor.cs" />
+    <None Include="Assets\Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\settings\PackageImportList_ShaderGraph.txt" />
+    <None Include="Assets\Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\PackageImportList.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -250,6 +254,9 @@
     <Reference Include="UnityEditor">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.VR">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Graphs">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
     </Reference>
@@ -258,6 +265,30 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="Valve.Newtonsoft.Json">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Malimbe.BehaviourStateRequirementMethod">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.BehaviourStateRequirementMethod.dll</HintPath>
+    </Reference>
+    <Reference Include="Malimbe.MemberChangeMethod">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.MemberChangeMethod.dll</HintPath>
+    </Reference>
+    <Reference Include="Malimbe.MemberClearanceMethod">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.MemberClearanceMethod.dll</HintPath>
+    </Reference>
+    <Reference Include="Malimbe.PropertySerializationAttribute">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.PropertySerializationAttribute.dll</HintPath>
+    </Reference>
+    <Reference Include="Malimbe.XmlDocumentationAttribute">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.XmlDocumentationAttribute.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -613,11 +644,96 @@
     <Reference Include="Boo.Lang">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Supyrb.Editor">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Supyrb.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="VRTK.Prefabs.Runtime">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/VRTK.Prefabs.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Zinnia.Editor">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Zinnia.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.Animation.Rigging.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Zinnia.Runtime">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Zinnia.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging.Editor">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.Animation.Rigging.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{80A91B32-1AB0-FA22-6B0E-96FF4E1D5660}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.Examples.Editor.csproj">
+      <Project>{1618AA0F-AA55-1338-A201-05903252EE64}</Project>
+      <Name>Unity.ProBuilder.Examples.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="SteamVR_Actions.csproj">
       <Project>{7A6A6935-1FFC-995D-9C16-E791B3A61A89}</Project>
@@ -634,6 +750,10 @@
     <ProjectReference Include="SteamVR.csproj">
       <Project>{EF5342AF-7D3D-7922-CF95-27021B76B2F0}</Project>
       <Name>SteamVR</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
+      <Project>{A7B7B3AB-303F-52AD-4A72-52E16410FABD}</Project>
+      <Name>SteamVR_Windows_EditorHelper</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< Updated upstream
-- path: Assets/Scenes/FinalScenes/StoragePack.unity
-=======
-- path: Assets/Scenes/VR_Recorder.unity
->>>>>>> Stashed changes
+- path: Assets/Scenes/FinalScenes/VR_GAME 1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
