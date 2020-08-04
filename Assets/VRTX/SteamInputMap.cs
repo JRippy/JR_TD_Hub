@@ -7,6 +7,7 @@ using Zinnia.Action;
 
 public class SteamInputMap : BooleanAction
 {
+    [Tooltip("Button to start climbing (GrabGrip)")]
     public string SteamVRAction;
     public Hand hand;
 
