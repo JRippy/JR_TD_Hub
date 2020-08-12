@@ -450,6 +450,9 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="PackageManagerAssembly">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Assets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll</HintPath>
+    </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
       <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>

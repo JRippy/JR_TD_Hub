@@ -12,10 +12,10 @@ public class SceneHandler : MonoBehaviour
 {
     public SteamVR_LaserPointer laserPointer;
     public Material newMaterialRef;
-    public Transform sp1;
-    public Transform sp2;
-    public Transform sp3;
-    public Transform sp4;
+    //public Transform sp1;
+    //public Transform sp2;
+    //public Transform sp3;
+    //public Transform sp4;
 
     Text txt;
 
@@ -23,14 +23,16 @@ public class SceneHandler : MonoBehaviour
     //Distance Grab
     public Transform snapTo;
     private Rigidbody body;
-    private bool wasKinetic;
-    private bool wasGravity;
+    //private bool wasKinetic;
+    //private bool wasGravity;
     private Transform objToGrab;
+    private GameObject gameObjectToGrab;
     public float snapTime = 2;
 
     private float dropTimer;
     private Interactable interactable;
     private Transform transfoSnapTo;
+    bool used = false;
     //
 
     //------Test--------
@@ -41,6 +43,8 @@ public class SceneHandler : MonoBehaviour
     //reference to the sphere
     public GameObject Sphere;
     //--------------------
+
+    public Hand Right;
 
     void Awake()
     {
@@ -90,25 +94,28 @@ public class SceneHandler : MonoBehaviour
             e.target.GetComponentInChildren<Text>().text = "Clicked";
             e.target.GetComponentInChildren<Text>().fontStyle = FontStyle.Bold;
         }
-        else if (e.target.name == "Flower" || e.target.name == "Flower(1)" || e.target.name == "Flower(2)" || e.target.name == "Flower(3)")
-        {
-            Debug.Log("Flower was clicked");
-            sp1.position = transform.position;
-            sp2.position = transform.position;
-            sp3.position = transform.position;
-            sp4.position = transform.position;
+        //else if (e.target.name == "Flower" || e.target.name == "Flower(1)" || e.target.name == "Flower(2)" || e.target.name == "Flower(3)")
+        //{
+        //    Debug.Log("Flower was clicked");
+        //    sp1.position = transform.position;
+        //    sp2.position = transform.position;
+        //    sp3.position = transform.position;
+        //    sp4.position = transform.position;
 
-        }
+        //}
         else if (e.target.name != null && e.target.GetComponent<Interactable>() != null)
         {
             Debug.Log("Click actif");
             objToGrab = e.target.GetComponent<Transform>();
+            gameObjectToGrab = e.target.GetComponent<GameObject>();
             interactable = e.target.GetComponent<Interactable>();
             body = e.target.GetComponent<Rigidbody>();
+            used = false;
+            dropTimer = 0;
 
-            Debug.Log(body.isKinematic + " " + body.useGravity);
-            wasKinetic = body.isKinematic;
-            wasGravity = body.useGravity;
+            //Debug.Log(body.isKinematic + " " + body.useGravity);
+            //wasKinetic = body.isKinematic;
+            //wasGravity = body.useGravity;
             transfoSnapTo = snapTo;
 
             Debug.Log(snapTo.position);
@@ -146,12 +153,10 @@ public class SceneHandler : MonoBehaviour
 
     private void FixedUpdate()
     {
-        bool used = false;
         if (interactable != null)
         {
             used = interactable.attachedToHand;
         }
-            
 
         if (body != null)
         {
@@ -159,31 +164,37 @@ public class SceneHandler : MonoBehaviour
             {
                 //body.isKinematic = false;
                 //Debug.Log("Is used!");
-                body.useGravity = wasGravity;
-                body.isKinematic = wasKinetic;
-                dropTimer = -1;
+                //body.useGravity = wasGravity;
+                //body.isKinematic = wasKinetic;
+                dropTimer = 1;
             }
-            //else if (interactable.hoveringHand != null)
-            //{
-            //    dropTimer = -1;
-
-            //    StartCoroutine(StopObject());
-            //}
             else
             {
                 dropTimer += Time.deltaTime / (snapTime / 2);
 
-                body.isKinematic = dropTimer > 1;
+                //body.isKinematic = dropTimer > 1;
+
+                Debug.Log(dropTimer);
 
                 if (dropTimer > 1)
                 {
-                    //transform.parent = snapTo;
-                    objToGrab.position = transfoSnapTo.position;
-                    objToGrab.rotation = transfoSnapTo.rotation;
-                    dropTimer = -1;
+                    //objToGrab.position = transfoSnapTo.position;
+                    //objToGrab.rotation = transfoSnapTo.rotation;
+                    //dropTimer = -1;
+
+                    Debug.Log("Game Object : " + gameObjectToGrab);
+                    Debug.Log(gameObjectToGrab);
+
+                    if (gameObjectToGrab != null)
+                    {
+                        Right.AttachObject(gameObjectToGrab, GrabTypes.Grip, Hand.AttachmentFlags.SnapOnAttach);
+                    }
+
+                    //body.isKinematic = false;
+                    used = true;
 
                     //Debug.Log("Dropt Timer > 1");
-                    StartCoroutine(SuspendObject());
+                    //StartCoroutine(SuspendObject());
                 }
                 else
                 {
@@ -199,50 +210,56 @@ public class SceneHandler : MonoBehaviour
                 }
 
             }
+            //else if (interactable.hoveringHand != null)
+            //{
+            //    dropTimer = -1;
+
+            //    StartCoroutine(StopObject());
+            //}
         }
     }
 
-    IEnumerator SuspendObject()
-    {
-        Debug.Log("Gravity desactive");
-        body.useGravity = false;
-        body.isKinematic = false;
+    //IEnumerator SuspendObject()
+    //{
+    //    Debug.Log("Gravity desactive");
+    //    body.useGravity = false;
+    //    body.isKinematic = false;
 
-        yield return new WaitForSeconds(1);
+    //    yield return new WaitForSeconds(1);
 
-        if (body != null)
-        {
-            Debug.Log("Gravity active");
-            Debug.Log(wasGravity);
-            Debug.Log(wasKinetic);
-            body.useGravity = wasGravity;
-            body.isKinematic = wasKinetic;
-            objToGrab = null;
-            interactable = null;
-            body = null;
-        }
+    //    if (body != null)
+    //    {
+    //        Debug.Log("Gravity active");
+    //        Debug.Log(wasGravity);
+    //        Debug.Log(wasKinetic);
+    //        body.useGravity = wasGravity;
+    //        body.isKinematic = wasKinetic;
+    //        objToGrab = null;
+    //        interactable = null;
+    //        body = null;
+    //    }
 
 
-    }
+    //}
 
-    IEnumerator StopObject()
-    {
-        body.useGravity = false;
-        body.isKinematic = false;
+    //IEnumerator StopObject()
+    //{
+    //    body.useGravity = false;
+    //    body.isKinematic = false;
 
-        yield return new WaitForSeconds(1);
+    //    yield return new WaitForSeconds(1);
 
-        if (body != null)
-        {
+    //    if (body != null)
+    //    {
 
-            body.useGravity = wasGravity;
-            body.isKinematic = wasKinetic;
+    //        body.useGravity = wasGravity;
+    //        body.isKinematic = wasKinetic;
 
-        }
+    //    }
 
-        objToGrab = null;
-        interactable = null;
-        body = null;
+    //    objToGrab = null;
+    //    interactable = null;
+    //    body = null;
 
-    }
+    //}
 }

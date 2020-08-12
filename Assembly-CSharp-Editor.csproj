@@ -85,6 +85,7 @@
     <Compile Include="Assets\Unity-Runtime-Animation-Recorder-master\Unity Runtime Recorder\Scripts\UnityAnimSaver\Editor\UnityAnimationRecorderEditor.cs" />
     <None Include="Assets\Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\settings\PackageImportList_ShaderGraph.txt" />
     <None Include="Assets\Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\PackageImportList.txt" />
+    <None Include="Assets\EffectExamples\Editor\PackageManagerAssembly\PackageImportList.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -279,6 +280,9 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="PackageManagerAssembly">
+      <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Assets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
       <HintPath>C:/Users/julien/Documents/Unity/JR_TD_Project/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
