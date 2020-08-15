@@ -9,6 +9,13 @@ TagManager:
   - Frond
   - projectile
   - bullet
+  - Laser
+  - Walls
+  - Base
+  - ElectroBall
+  - Zombie
+  - Shield
+  - ShieldDestroyed
   layers:
   - Default
   - TransparentFX
