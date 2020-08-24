@@ -6,8 +6,14 @@ public class ShieldCollision : MonoBehaviour
 {
 
     [SerializeField] string[] _collisionTag;
+    public GameManagerDefender gmd;
     float hitTime;
     Material mat;
+
+    //Retract Shield
+    public float scaleRate = -0.1f;
+    public float minScale = 0.01f;
+    public float maxScale = 10.0f;
 
     void Start()
     {
@@ -32,6 +38,11 @@ public class ShieldCollision : MonoBehaviour
             mat.SetFloat("_HitTime", hitTime);
         }
 
+        if (gmd.healthCurrentShield <= 0)
+        {
+            ApplyScaleRate();
+        }
+
     }
 
     void OnCollisionEnter(Collision collision)
@@ -48,9 +59,29 @@ public class ShieldCollision : MonoBehaviour
                     mat.SetVector("_HitPosition", transform.InverseTransformPoint(_contacts[i2].point));
                     hitTime = 500;
                     mat.SetFloat("_HitTime", hitTime);
+
+                    Debug.Log("Shield Hit!");
                 }
+
+                Debug.Log("Shield Hit!");
+                gmd.healthCurrentShield -= 5;
             }
         }
+    }
+
+    public void ApplyScaleRate()
+    {
+        //if we exceed the defined range then correct the sign of scaleRate.
+        if (transform.localScale.x < minScale)
+        {
+            //scaleRate = Mathf.Abs(scaleRate);
+            Destroy(gameObject);
+        }
+        //else if (transform.localScale.x > maxScale)
+        //{
+        //    scaleRate = -Mathf.Abs(scaleRate);
+        //}
+        transform.localScale += Vector3.one * scaleRate;
     }
 }
 

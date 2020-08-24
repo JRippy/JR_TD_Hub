@@ -12,6 +12,12 @@ public class GunLowPoly : MonoBehaviour
     public Transform barrel;
     public AudioSource audioSource;
     public AudioClip audioClip;
+    public ParticleSystem muzzleFlash;
+    public ParticleSystem cartridgeEjection;
+    public GameObject metalHitEffect;
+    public GameObject stoneHitEffect;
+    public GameObject waterLeakEffect;
+    public GameObject woodHitEffect;
 
     private Interactable interactable;
 
@@ -28,6 +34,9 @@ public class GunLowPoly : MonoBehaviour
 
             if (fireAction[source].stateDown)
             {
+                muzzleFlash.Play();
+                cartridgeEjection.Play();
+
                 Fire();
             }
         }

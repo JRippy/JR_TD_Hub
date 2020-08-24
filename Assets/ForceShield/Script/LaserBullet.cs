@@ -5,7 +5,7 @@ using UnityEngine;
 public class LaserBullet : MonoBehaviour
 {
 
-    [SerializeField] string _wallTags;
+    [SerializeField] string _enemyTags;
     [SerializeField] GameObject _hitParticle;
     Vector3 targetPos;
     [SerializeField] float _speed;
@@ -15,7 +15,7 @@ public class LaserBullet : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
-        Invoke("DestroyThis", 5);
+        Invoke("DestroyThis", 3);
         //GameObject particle = GameObject.Instantiate(_hitParticle, transform.position, Quaternion.identity);
 
     }
@@ -30,9 +30,9 @@ public class LaserBullet : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         GameObject col = collision.gameObject;
-        if (col.CompareTag(_wallTags))
+        if (col.CompareTag(_enemyTags))
         {
-            Debug.Log("Wall Hit");
+            Debug.Log("Enemy Hit by laser");
             GameObject particle = GameObject.Instantiate(_hitParticle, transform.position, Quaternion.identity, col.transform);
         }
         Destroy(gameObject);

@@ -5,10 +5,12 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public float speed = 10f;
+    public int healthBar = 100;
     public Animator animator;
+    public BoxCollider hand1;
+    public BoxCollider hand2;
 
     private Transform target;
-    private int healthBar = 100;
     private int waypointIndex = 0;
     private bool moving = false;
     private bool attack = false;
@@ -16,13 +18,17 @@ public class Enemy : MonoBehaviour
     private bool hurt = false;
     private bool dead = false;
     private bool invul = false;
-    private Rigidbody rigidbody;
+    private Vector3 h1;
+    private Vector3 h2;
+    //private Rigidbody rigidbody;
 
     // Start is called before the first frame update
     void Start()
     {
         target = Waypoints.points[0];
-        rigidbody = this.GetComponent<Rigidbody>();
+        h1 = hand1.size;
+        h2 = hand2.size;
+        //rigidbody = this.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -92,14 +98,18 @@ public class Enemy : MonoBehaviour
         }
         else if (other.tag == "Laser")
         {
-            print("Laser");
+            //print("Laser");
+            zombieHurt();
+        }
+        else if (other.tag == "ElectricWall")
+        {
+            //print("Laser");
             zombieElectrocut();
         }
-        else if (other.tag == "Shield")
+        else if (other.tag == "Shield" || other.tag == "Generator")
         {
             //rigidbody.freezeRotation = true;
             zombieAttack();
-            moving = false;
 
         }
         else if (other.tag == "ShieldDestroyed")
@@ -118,11 +128,12 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log("Exit");
-        Debug.Log(other.tag);
-        Debug.Log(other.gameObject.name);
+        //Debug.Log("Exit");
+        //Debug.Log(other.tag);
+        //Debug.Log(other.gameObject.name);
         if (other.tag == "Shield")
         {
+            //zombieEndAttack();
             //rigidbody.freezeRotation = true;
             //other.gameObject.SetActive(false);
 
@@ -148,14 +159,16 @@ public class Enemy : MonoBehaviour
     {
         attack = true;
         moving = false;
-
+        hand1.size = new Vector3(h1.x - 0.5f, h1.y, h1.z);
+        hand2.size = new Vector3(h1.x + 0.3f, h1.y, h1.z);
         animator.SetBool("Attack", true);
     }
 
-    private void zombieEndAttack()
+    public void zombieEndAttack()
     {
         attack = false;
         moving = true;
+        hand2.size = new Vector3(h1.x, h1.y, h1.z);
 
         animator.SetBool("Attack", false);
     }
@@ -169,7 +182,7 @@ public class Enemy : MonoBehaviour
 
         if (invul != true)
         {
-            healthBar = healthBar - 50;
+            healthBar -= 50;
         }
 
         if (healthBar <= 0)
@@ -186,11 +199,11 @@ public class Enemy : MonoBehaviour
         }
         else
         {
-            if (animator.GetBool("Electrocuted") != true)
-            {
+            //if (animator.GetBool("Electrocuted") != true)
+            //{
                 animator.SetTrigger("Hit");
-                invul = true;
-            }
+                //invul = true;
+            //}
             
         }
     }
@@ -222,5 +235,10 @@ public class Enemy : MonoBehaviour
         Debug.Log("End Paralyse");
         animator.SetBool("Electrocuted", false);
         animator.SetTrigger("StandUp"); 
+    }
+
+    public bool isAttacking()
+    {
+        return attack;
     }
 }

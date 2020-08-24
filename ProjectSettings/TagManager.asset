@@ -16,6 +16,9 @@ TagManager:
   - Zombie
   - Shield
   - ShieldDestroyed
+  - Generator
+  - ZombieHand
+  - ElectricWall
   layers:
   - Default
   - TransparentFX

@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets\Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Editor\ReadmeEditor.cs" />
     <Compile Include="Assets\Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\PackageChecker.cs" />
+    <Compile Include="Assets\Assets\LightningBolt\Editor\LightningBoltEditor.cs" />
     <Compile Include="Assets\Assets\NatureStarterKit2\Editor\ImageEffects\AntialiasingEditor.cs" />
     <Compile Include="Assets\Assets\NatureStarterKit2\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
     <Compile Include="Assets\Assets\NatureStarterKit2\Editor\ImageEffects\BloomEditor.cs" />

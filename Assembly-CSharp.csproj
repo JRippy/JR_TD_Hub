@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ActivateGate.cs" />
     <Compile Include="Assets\Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
     <Compile Include="Assets\Assets\AurynSky\Forest Pack\Scripts\ChestDemo.cs" />
     <Compile Include="Assets\Assets\AurynSky\Forest Pack\Scripts\MaterialMover.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="Assets\Assets\BrokenVector\UltimateDungeonPack\Scenes\Demo\FPControls\Scripts\CharacterController.cs" />
     <Compile Include="Assets\Assets\BrokenVector\UltimateDungeonPack\Scenes\Demo\FPControls\Scripts\MouseCamLook.cs" />
     <Compile Include="Assets\Assets\BrokenVector\UltimateDungeonPack\Scripts\LightImprove.cs" />
+    <Compile Include="Assets\Assets\LightningBolt\LightningBoltScript.cs" />
     <Compile Include="Assets\Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
     <Compile Include="Assets\Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
     <Compile Include="Assets\Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
@@ -121,6 +123,9 @@
     <Compile Include="Assets\ForceShield\Script\LaserBullet.cs" />
     <Compile Include="Assets\ForceShield\Script\ShieldCollision.cs" />
     <Compile Include="Assets\ForceShield\Script\UserControl.cs" />
+    <Compile Include="Assets\GameManagerDefender.cs" />
+    <Compile Include="Assets\Generator.cs" />
+    <Compile Include="Assets\HealthBar.cs" />
     <Compile Include="Assets\Import\JMO Assets\WarFX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
     <Compile Include="Assets\Import\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RandomDir.cs" />
     <Compile Include="Assets\Import\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
@@ -135,6 +140,16 @@
     <Compile Include="Assets\Import\JMO Assets\WarFX\Scripts\WFX_BulletHoleDecal.cs" />
     <Compile Include="Assets\Import\JMO Assets\WarFX\Scripts\WFX_LightFlicker.cs" />
     <Compile Include="Assets\Import\JMO Assets\WarFX\Spawn System\CFX_SpawnSystem.cs" />
+    <Compile Include="Assets\LIV\Plugins\openvr_api.cs" />
+    <Compile Include="Assets\LIV\Scripts\Calibration.cs" />
+    <Compile Include="Assets\LIV\Scripts\Extensions.cs" />
+    <Compile Include="Assets\LIV\Scripts\ExternalCamera.cs" />
+    <Compile Include="Assets\LIV\Scripts\HelpAttribute.cs" />
+    <Compile Include="Assets\LIV\Scripts\LIV.cs" />
+    <Compile Include="Assets\LIV\Scripts\MixedRealityRender.cs" />
+    <Compile Include="Assets\LIV\Scripts\SharedTextureProtocol.cs" />
+    <Compile Include="Assets\LIV\Scripts\SteamVRCompatibility.cs" />
+    <Compile Include="Assets\LowPolyGunShoot.cs" />
     <Compile Include="Assets\MeshSplitting\Demo\Scripts\DemoController.cs" />
     <Compile Include="Assets\MeshSplitting\Demo\Scripts\DestroyLimitY.cs" />
     <Compile Include="Assets\MeshSplitting\Demo\Scripts\MouseMotor.cs" />
@@ -151,6 +166,8 @@
     <Compile Include="Assets\MeshSplitting\MeshSplitting\SplitterMath\SplitterHelper.cs" />
     <Compile Include="Assets\MeshSplitting\MeshSplitting\Splitters\Splitter.cs" />
     <Compile Include="Assets\MeshSplitting\MeshSplitting\Splitters\SplitterSingleCut.cs" />
+    <Compile Include="Assets\PlayerTest.cs" />
+    <Compile Include="Assets\ProtectionBar.cs" />
     <Compile Include="Assets\Script\Boomerang.cs" />
     <Compile Include="Assets\Script\Bullet.cs" />
     <Compile Include="Assets\Script\Button.cs" />
@@ -215,6 +232,7 @@
     <None Include="Assets\Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
     <None Include="Assets\Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
     <None Include="Assets\Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\Assets\LightningBolt\Readme.txt" />
     <None Include="Assets\Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
     <None Include="Assets\Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
     <None Include="Assets\Assets\NatureStarterKit2\Standard Assets\Effects\Projectors\Guidelines.txt" />
@@ -271,6 +289,7 @@
     <None Include="Assets\Import\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend Scroll.shader" />
     <None Include="Assets\Assets\BrokenVector\LowPolyShaders\Shaders\LowPolyUnlitShader.shader" />
     <None Include="Assets\Assets\NatureStarterKit2\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+    <None Include="Assets\LIV\Resources\Materials\LIV_Blit.shader" />
     <None Include="Assets\Assets\BrokenVector\LowPolyShaders\Shaders\LowPolyPBRShader.shader" />
     <None Include="Assets\Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
     <None Include="Assets\Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
@@ -283,6 +302,7 @@
     <None Include="Assets\Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
     <None Include="Assets\Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
     <None Include="Assets\Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\LIV\Resources\Materials\LIV_ClearBackground.shader" />
     <None Include="Assets\Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
     <None Include="Assets\Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
     <None Include="Assets\Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
