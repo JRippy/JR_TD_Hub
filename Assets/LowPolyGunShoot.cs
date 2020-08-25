@@ -20,12 +20,10 @@ public class LowPolyGunShoot : MonoBehaviour
 	public GameObject woodHitEffect;
 
 	private float nextFire;                                             // Float to store the time the player will be allowed to fire again, after firing
-	private Animator anim;
 	private GunAim gunAim;
 
 	void Start()
 	{
-		anim = GetComponent<Animator>();
 		gunAim = GetComponentInParent<GunAim>();
 	}
 
@@ -36,7 +34,6 @@ public class LowPolyGunShoot : MonoBehaviour
 			nextFire = Time.time + fireRate;
 			muzzleFlash.Play();
 			cartridgeEjection.Play();
-			anim.SetTrigger("Fire");
 
 			Vector3 rayOrigin = gunEnd.position;
 			RaycastHit hit;

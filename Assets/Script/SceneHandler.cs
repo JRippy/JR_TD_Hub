@@ -156,7 +156,11 @@ public class SceneHandler : MonoBehaviour
         if (interactable != null)
         {
             used = interactable.attachedToHand;
+            Debug.Log(used);
+            laserPointer.inUse = used;
         }
+
+        laserPointer.pointer.GetComponent<MeshRenderer>().material.color = Color.clear;
 
         if (body != null)
         {
@@ -166,6 +170,7 @@ public class SceneHandler : MonoBehaviour
                 //Debug.Log("Is used!");
                 //body.useGravity = wasGravity;
                 //body.isKinematic = wasKinetic;
+                laserPointer.pointer.GetComponent<MeshRenderer>().material.color = Color.clear;
                 dropTimer = 1;
             }
             else

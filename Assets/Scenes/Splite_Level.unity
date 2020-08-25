@@ -298,6 +298,7 @@ MonoBehaviour:
   pointer: {fileID: 0}
   addRigidBody: 0
   reference: {fileID: 0}
+  inUse: 0
 --- !u!1 &78003786
 GameObject:
   m_ObjectHideFlags: 0
@@ -435,6 +436,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   SteamVRAction: InteractUI
+  GrabGrip:
+    actionPath: /actions/default/in/GrabGrip
+    needsReinit: 0
   hand: {fileID: 13153779}
 --- !u!4 &245401303
 Transform:
@@ -472,7 +476,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 2d9ae7c617baf994caac7a76e96e2dab, type: 3}
@@ -703,7 +707,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 630178022}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.19, z: 0}
+  m_LocalPosition: {x: -1.84, y: 1.19, z: 0}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 838163669}
@@ -719,7 +723,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
@@ -1353,7 +1357,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateActionSetOnAttach:
     actionSetPath: 
-  hideHandOnAttach: 0
+  hideHandOnAttach: 1
   hideSkeletonOnAttach: 0
   hideControllerOnAttach: 0
   handAnimationOnPickup: 0
@@ -1621,10 +1625,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   laserPointer: {fileID: 13153791}
   newMaterialRef: {fileID: 2100000, guid: 31f39bbb1b71b8349bcd90e8cd23dba7, type: 2}
-  sp1: {fileID: 0}
-  sp2: {fileID: 0}
-  sp3: {fileID: 0}
-  sp4: {fileID: 0}
   snapTo: {fileID: 581881091}
   snapTime: 3
   SphereOnOff:
@@ -1632,6 +1632,7 @@ MonoBehaviour:
     needsReinit: 0
   handType: 2
   Sphere: {fileID: 0}
+  Right: {fileID: 0}
 --- !u!1001 &1099475035
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2016,6 +2017,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   SteamVRAction: InteractUI
+  GrabGrip:
+    actionPath: /actions/default/in/GrabGrip
+    needsReinit: 0
   hand: {fileID: 13153778}
 --- !u!4 &1624152711
 Transform:
@@ -2154,7 +2158,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -2662,7 +2666,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}

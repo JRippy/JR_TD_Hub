@@ -8,12 +8,16 @@ public class GunLowPoly : MonoBehaviour
 {
     public SteamVR_Action_Boolean fireAction;
     public float speed = 40;
-    public GameObject bullet;
+	public float weaponRange = 20f;
+	public GameObject bullet;
     public Transform barrel;
     public AudioSource audioSource;
     public AudioClip audioClip;
-    public ParticleSystem muzzleFlash;
+	public Transform gunEnd;
+
+	public ParticleSystem muzzleFlash;
     public ParticleSystem cartridgeEjection;
+
     public GameObject metalHitEffect;
     public GameObject stoneHitEffect;
     public GameObject waterLeakEffect;
@@ -37,8 +41,17 @@ public class GunLowPoly : MonoBehaviour
                 muzzleFlash.Play();
                 cartridgeEjection.Play();
 
+				Vector3 rayOrigin = gunEnd.position;
+				RaycastHit hit;
+				if (Physics.Raycast(rayOrigin, gunEnd.forward, out hit, weaponRange))
+				{
+					HandleHit(hit);
+				}
+
                 Fire();
-            }
+
+
+			}
         }
     }
 
@@ -50,4 +63,50 @@ public class GunLowPoly : MonoBehaviour
         Destroy(spawnedBullet, 2);
 
     }
+
+
+	void HandleHit(RaycastHit hit)
+	{
+		if (hit.collider.sharedMaterial != null)
+		{
+			string materialName = hit.collider.sharedMaterial.name;
+			Debug.Log(materialName);
+
+			switch (materialName)
+			{
+				case "Metal":
+					SpawnDecal(hit, metalHitEffect);
+					break;
+				//case "Sand":
+				//	SpawnDecal(hit, sandHitEffect);
+					//break;
+				case "Stone":
+					SpawnDecal(hit, stoneHitEffect);
+					break;
+				case "WaterFilled":
+					SpawnDecal(hit, waterLeakEffect);
+					SpawnDecal(hit, metalHitEffect);
+					break;
+				case "Wood":
+					SpawnDecal(hit, woodHitEffect);
+					break;
+				//case "Meat":
+				//	SpawnDecal(hit, fleshHitEffects[Random.Range(0, fleshHitEffects.Length)]);
+				//	break;
+				//case "Character":
+				//	SpawnDecal(hit, fleshHitEffects[Random.Range(0, fleshHitEffects.Length)]);
+				//	break;
+				//case "WaterFilledExtinguish":
+				//	SpawnDecal(hit, waterLeakExtinguishEffect);
+				//	SpawnDecal(hit, metalHitEffect);
+				//	break;
+			}
+		}
+	}
+
+	void SpawnDecal(RaycastHit hit, GameObject prefab)
+	{
+		GameObject spawnedDecal = GameObject.Instantiate(prefab, hit.point, Quaternion.LookRotation(hit.normal));
+		spawnedDecal.transform.SetParent(hit.collider.transform);
+	}
 }
