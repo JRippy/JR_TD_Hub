@@ -1932,9 +1932,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6272a0c874e44c39a1eb66510a66797, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saveFolderPath: C:/Users/julien/Desktop/
-  saveFileName: GoPro.ma
-  originalMaFilePath: C:/Users/julien/Documents/Unity/JR_TD_Project/Assets/Animation_Recorder/CameraGoPro.ma
+  saveFolderPath: C:/Users/Julien/Desktop/
+  saveFileName: RecordGoPro.ma
+  originalMaFilePath: C:/Users/Julien/Documents/Unity/JR_TD_Hub_Vive/Assets/Animation_Recorder/CameraGoPro.ma
   startKey: 32
   endKey: 27
   changeTimeScale: 0
