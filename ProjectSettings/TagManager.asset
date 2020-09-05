@@ -7,6 +7,18 @@ TagManager:
   - FxTemporaire
   - FireBall
   - Frond
+  - projectile
+  - bullet
+  - Laser
+  - Walls
+  - Base
+  - ElectroBall
+  - Zombie
+  - Shield
+  - ShieldDestroyed
+  - Generator
+  - ZombieHand
+  - ElectricWall
   layers:
   - Default
   - TransparentFX

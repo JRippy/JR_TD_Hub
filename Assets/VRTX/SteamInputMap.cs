@@ -7,7 +7,9 @@ using Zinnia.Action;
 
 public class SteamInputMap : BooleanAction
 {
+    [Tooltip("Button to start climbing (GrabGrip)")]
     public string SteamVRAction;
+    public SteamVR_Action_Boolean GrabGrip = SteamVR_Input.GetBooleanAction("GrabGrip");
     public Hand hand;
 
     private SteamVR_Action_Boolean button;
@@ -15,7 +17,8 @@ public class SteamInputMap : BooleanAction
     // Start is called before the first frame update
     void Start()
     {
-        button = SteamVR_Input.GetAction<SteamVR_Action_Boolean>(SteamVRAction);
+        //button = SteamVR_Input.GetAction<SteamVR_Action_Boolean>(SteamVRAction);
+        button = GrabGrip;
     }
 
     protected virtual void Update()

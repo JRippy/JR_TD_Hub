@@ -26,6 +26,8 @@ namespace Valve.VR.Extras
 
         Transform previousContact = null;
 
+        public bool inUse = false;
+
         private void Start()
         {
             if (pose == null)
@@ -141,15 +143,18 @@ namespace Valve.VR.Extras
                 OnPointerClick(argsClick);
             }
 
-            if (interactWithUI != null && interactWithUI.GetState(pose.inputSource))
+            if (interactWithUI != null && interactWithUI.GetState(pose.inputSource) && !inUse)
             {
                 pointer.transform.localScale = new Vector3(thickness * 5f, thickness * 5f, dist);
                 pointer.GetComponent<MeshRenderer>().material.color = clickColor;
             }
             else
             {
-                pointer.transform.localScale = new Vector3(thickness, thickness, dist);
-                pointer.GetComponent<MeshRenderer>().material.color = color;
+                if (!inUse)
+                {
+                    pointer.transform.localScale = new Vector3(thickness, thickness, dist);
+                    pointer.GetComponent<MeshRenderer>().material.color = color;
+                }
             }
             pointer.transform.localPosition = new Vector3(0f, 0f, dist / 2f);
         }
